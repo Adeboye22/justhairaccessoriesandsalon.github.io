@@ -1,8 +1,11 @@
 # Just Hair Accessories and Salon Application
+
+## Description
+
 ## Table of Content
 - Title
-- Table of Content
 - Description
+- Table of Content
 - Features
 - Requirements
 - Live Link
@@ -10,8 +13,6 @@
 - Third Party Technology
 - Professionals Involved
 - Owners Copyright.
-
-## Description
 
 ## Features
 
