@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import Navigation from './Navigation'
 
-export class Homepage extends Component {
+class Review extends Component {
   render() {
     return (
       <div>
@@ -11,5 +11,4 @@ export class Homepage extends Component {
   }
 }
 
-export default Homepage
-
+export default Review
