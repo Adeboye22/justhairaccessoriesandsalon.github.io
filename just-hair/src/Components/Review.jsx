@@ -6,6 +6,7 @@ class Review extends Component {
     return (
       <div>
         <Navigation />
+        <div>Review me</div>
       </div>
     )
   }

@@ -1,5 +1,6 @@
 import React from 'react'
 import JustHairLogo from '../assets/JustHairLogo.png'
+import styles from '../styles/navigation.module.css'
 
 //this component the header file that links to all the pages of the app 
 function Navigation() {
