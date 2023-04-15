@@ -1,6 +1,7 @@
 import React from 'react'
 import JustHairLogo from '../assets/JustHairLogo.png'
-import styles from '../styles/navigation.module.css'
+import styles from '../styles/navigation.module.css';
+import {Link} from 'react-router-dom';
 
 //this component the header file that links to all the pages of the app 
 function Navigation() {
@@ -8,16 +9,16 @@ function Navigation() {
     <div>
       <header> 
         {/* app logo */}
-        <img src={JustHairLogo} alt={"JustHair"} width= {100}/>
+        <img src={JustHairLogo} alt={"JustHair"} width= {110} height={100}/>
         {/* app navigation bar */}
         <nav>
-            <ul>
-                <li><a href="./Homepage">Home</a></li>
-                <li><a href="./Service" >Services</a></li>
-                <li><a href="./Product">Products</a></li>
-                <li><a href="./Review">Reviews</a></li>
-            </ul>
+          <ul>
+            <li><Link to="/">Home</Link></li>
+            <li><Link to="Service" >Services</Link></li>
+            <li><Link to="Product">Products</Link></li>
+            <li><Link to="Review">Reviews</Link></li>
             <button>Contact Us</button>
+          </ul>
         </nav>
       </header>
     </div>

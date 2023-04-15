@@ -1,11 +1,10 @@
 import React, { Component } from 'react'
-import Navigation from './Navigation'
+import {Link} from 'react-router-dom'
 
 class Review extends Component {
   render() {
     return (
       <div>
-        <Navigation />
         <div>Review me</div>
       </div>
     )
