@@ -5,6 +5,7 @@ import Homepage from './Components/Homepage';
 import Review from './Components/Review';
 import Product from './Components/Product';
 import Service from './Components/Service';
+import Base from './Components/Base';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <Route path="/Review" element={<Review />} />
       <Route path="/Service" element={<Service />} />
       </Routes>
+      <Base />
     </div>
     </>
   );
