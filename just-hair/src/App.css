@@ -37,6 +37,6 @@
   }
 }
 body{
-  background: linear-gradient(#B917F2,white);
+  background: linear-gradient(180deg, #B917F2, white 70%);
   background-repeat: no-repeat;
 }

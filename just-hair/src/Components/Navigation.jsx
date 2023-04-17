@@ -1,5 +1,5 @@
-import React from 'react'
-import JustHairLogo from '../assets/JustHairLogo.png'
+import React from 'react';
+import JustHairLogo from '../assets/JustHairLogo.png';
 import styles from '../styles/navigation.module.css';
 import {Link} from 'react-router-dom';
 
