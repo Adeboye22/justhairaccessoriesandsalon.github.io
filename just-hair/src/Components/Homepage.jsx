@@ -1,48 +1,65 @@
 import React, { Component } from 'react'
 import {Link} from 'react-router-dom'
 import styles from '../styles/homepage.module.css'
+import PercentA from '../assets/PercentA.jpg'
+import PercentB from '../assets/PercentB.jpg'
+import PercentC from '../assets/PercentC.jpg'
+import PercentD from '../assets/PercentD.jpg'
+import PercentOff from '../assets/Percentoff.jpg'
+import PixieCut from '../assets/PixieCut.jpg'
+import HeroSection from '../assets/HeroSection.jpg'
+import HolidayInspiredLooks from '../assets/HolidayInspiredLooks.jpg'
+import BobCut from '../assets/BobCut.jpg'
 
 class Homepage extends Component {
   render() {
     return (
       <div>
         {/* div for free delivery */}
-        <div className={`${styles.free_del}`}>
-          <div>Free delivery on orders over N200,000</div>
-          <div>7 working days free return</div>
-          <div>72 hours delivery</div>
+        <div className={`${styles.col_a}`}>
+          <div className={`${styles.col_a_1}`}>Free delivery on orders over N200,000</div>
+          <div className={`${styles.col_a_2}`}>7 working days free return</div>
+          <div className={`${styles.col_a_3}`}>72 hours delivery</div>
         </div>
         {/* div for hero page */}
         <div className={`${styles.hero}`}>
-          <div>
-            <span>New Arrivals</span>
-            <span>Up to 20% discount</span>
+          <div className={`${styles.hero_a}`}>
+            <h3>New Arrivals</h3>
+            <span>Up to 20% discount</span><br/>
             <button>Check Now</button>
           </div>
-          <img src="" alt="" />
+          <img src={HeroSection} alt="" width={300} />
         </div>
         <div className={`${styles.btn_3}`}>
-          <button>Lace Front Wigs</button>
-          <button>Glueless HD Wigs</button>
-          <button>Sew-in Weaves</button>
+          <button className={`${styles.btn_3_a}`}>Lace Front Wigs</button>
+          <button className={`${styles.btn_3_b}`}>Glueless HD Wigs</button>
+          <button className={`${styles.btn_3_c}`}>Sew-in Weaves</button>
         </div>
         {/* Must have choices */}
-        <div className={`${styles.choices}`}>
-          <div className={`${styles.choices_1}`}>
-            <article><img src="" alt="" /></article>
-            <article><img src="" alt="" /></article>
-            <article><img src="" alt="" /></article>
-            <article><img src="" alt="" /></article>
+        <div className={`${styles.col_b}`}>
+          <div className={`${styles.col_b_1}`}>
+            <article className={`${styles.bob_cut}`}><img src={BobCut} alt={"bob cut"} width={150} height={100}/></article>
+            <article className={`${styles.hol_ins_lks}`}><img src={HolidayInspiredLooks} alt="" width={150} height={100}/></article>
+            <article className={`${styles.pix_ct}`}><img src={PixieCut} alt="" width={150} height={100}/></article>
+            <article className={`${styles.per_off}`}><img src={PercentOff} alt="" width={150} height={100}/></article>
           </div>
-          <div className={`${styles.choices_2}`}>
-            <article><img src="" alt="" /></article>
-            <article><img src="" alt="" /></article>
-            <article><img src="" alt="" /></article>
-            <article><img src="" alt="" /></article>
+          <div className={`${styles.col_b_2}`}>
+            <article className={`${styles.per_A}`}><img src={PercentA} alt="" width={150} height={100}/></article>
+            <article className={`${styles.per_B}`}><img src={PercentB} alt="" width={150} height={100}/></article>
+            <article className={`${styles.per_C}`}><img src={PercentC} alt="" width={150} height={100}/></article>
+            <article className={`${styles.per_D}`}><img src={PercentD} alt="" /></article>
           </div>
           {/* view all button */}
           <div className={`${styles.btn_VA}`}><button>View All</button></div>
-          <h1>About us</h1>
+          <div className={`${styles.Abt_us}`}>
+            <h3>About us</h3>
+            <p>
+              &nbsp; Just Hair and Accessories Salon is your ultimate beauty store where you can shop in Warri, Delta state. Our amazing selection of high quality, yet affordable wigs; besides the <br />
+              hundreds of wig styles, we also carry a variety of different hair pieces from lace front wigs to ponytails. No matter your style, let Just Hair and Accessories Salon introduce <br />
+              you to the best hair extensions and wigs online and onsite. <br />
+              &nbsp; Our selection is curated with everything you need to buy wigs online. Improve your Look with Just Hair and Accessories. It's all up to you with breadth-taking, sexy, and stunning styles.
+            </p>
+          </div>
         </div>
       </div>
     )

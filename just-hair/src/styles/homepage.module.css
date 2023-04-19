@@ -1,1 +1,54 @@
 /* styling for homepage */
+.col_a{
+    display:flex;
+    justify-content: space-evenly;
+}
+.col_a_1{
+    border-right: 2px black solid;
+    padding-right: 75px;
+}
+.col_a_2{
+    margin-right: 50px;
+    border-right: 2px black solid;
+    padding-right: 75px;
+}
+.hero{
+    display:flex;
+    justify-content: center;
+    background-color: white;
+    width: 50em;
+    padding:50px;
+    margin-left: 150px;
+    border-radius: 10px;
+    margin-bottom:50px;
+}
+.hero_a{
+    margin-right: 300px;
+    font-size: 22px;
+}
+.hero_a h3{
+    text-shadow: 2px 2px rgba(0, 0, 0, 0.507);
+    margin-left:1em;
+}
+.hero_a span{
+    font-weight: 600;
+}
+.hero_a button{
+    margin-top: 2em;
+    margin-left: 3em;
+    padding: 15px;
+    font-size: 16px;
+    border-radius: 15px;
+    border:1px solid;
+    background-color:#B917F2;
+    color: white;
+    transition: 0.5s ease-in-out;
+}
+.hero_a button:hover{
+    background-color: white;
+    color: black;
+    border:2px solid;
+}
+.hero img{
+    border-radius:5px;
+}
