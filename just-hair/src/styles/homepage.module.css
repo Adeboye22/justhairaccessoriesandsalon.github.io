@@ -100,7 +100,24 @@
     display:flex;
     justify-content: space-evenly;
 }
+.bob_cut{
+    background-color: brown;
+    padding:10px 10px 50px;
+}
+.hol_ins_lks{
+    background-color: brown;
+    padding:10px 10px 50px;  
+}
+.pix_ct{
+    background-color: brown;
+    padding:10px 10px 50px; 
+}
+.per_off{
+    background-color: brown;
+    padding:10px 10px 50px;
+}
 .col_b_2{
     display:flex;
-    justify-content: space-evenly; 
+    justify-content: space-evenly;
+    margin-top: 50px; 
 }

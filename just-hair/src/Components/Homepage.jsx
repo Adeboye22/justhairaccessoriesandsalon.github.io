@@ -38,10 +38,10 @@ class Homepage extends Component {
         {/* Must have choices */}
         <div className={`${styles.col_b}`}>
           <div className={`${styles.col_b_1}`}>
-            <article className={`${styles.bob_cut}`}><img src={BobCut} alt={"bob cut"} width={150} height={100}/></article>
-            <article className={`${styles.hol_ins_lks}`}><img src={HolidayInspiredLooks} alt="" width={150} height={100}/></article>
-            <article className={`${styles.pix_ct}`}><img src={PixieCut} alt="" width={150} height={100}/></article>
-            <article className={`${styles.per_off}`}><img src={PercentOff} alt="" width={150} height={100}/></article>
+            <article className={`${styles.bob_cut}`}><img src={BobCut} alt={"bob cut"} width={250} height={200}/></article>
+            <article className={`${styles.hol_ins_lks}`}><img src={HolidayInspiredLooks} alt="" width={250} height={200}/></article>
+            <article className={`${styles.pix_ct}`}><img src={PixieCut} alt="" width={250} height={200}/></article>
+            <article className={`${styles.per_off}`}><img src={PercentOff} alt="" width={250} height={200}/></article>
           </div>
           <div className={`${styles.col_b_2}`}>
             <article className={`${styles.per_A}`}><img src={PercentA} alt="" width={150} height={100}/></article>
