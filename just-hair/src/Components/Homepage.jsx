@@ -47,7 +47,7 @@ class Homepage extends Component {
             <article className={`${styles.per_A}`}><img src={PercentA} alt="" width={150} height={100}/></article>
             <article className={`${styles.per_B}`}><img src={PercentB} alt="" width={150} height={100}/></article>
             <article className={`${styles.per_C}`}><img src={PercentC} alt="" width={150} height={100}/></article>
-            <article className={`${styles.per_D}`}><img src={PercentD} alt="" /></article>
+            <article className={`${styles.per_D}`}><img src={PercentD} alt="" width={150} height={100} /></article>
           </div>
           {/* view all button */}
           <div className={`${styles.btn_VA}`}><button>View All</button></div>
