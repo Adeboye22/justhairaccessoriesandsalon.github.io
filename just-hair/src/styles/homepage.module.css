@@ -1,4 +1,5 @@
 /* styling for homepage */
+/* top section  */
 .col_a{
     display:flex;
     justify-content: space-evenly;
@@ -20,6 +21,7 @@
     padding-bottom:30px;
     font-size: 20px;
 }
+/* hero section */
 .hero{
     display:flex;
     justify-content: center;
@@ -61,6 +63,7 @@
 .hero img{
     border-radius:5px;
 }
+/* buttons to products */
 .btn_3{
     display:flex;
     justify-content:space-evenly;
@@ -96,28 +99,108 @@
     box-shadow: 2px 3px rgba(0, 0, 0, 0.358);
     cursor:pointer;
 }
+/* Product display */
 .col_b_1{
     display:flex;
     justify-content: space-evenly;
 }
 .bob_cut{
-    background-color: brown;
+    background-color: #7e7a7a78;
     padding:10px 10px 50px;
+    border-radius:5px;
+}
+.bob_cut img{
+    border-radius:3px;
 }
 .hol_ins_lks{
-    background-color: brown;
-    padding:10px 10px 50px;  
+    background-color: #7e7a7a78;
+    padding:10px 10px 50px; 
+    border-radius:5px; 
+}
+.hol_ins_lks img{
+    border-radius:3px;
 }
 .pix_ct{
-    background-color: brown;
-    padding:10px 10px 50px; 
+    background-color: #7e7a7a78;
+    padding:10px 10px 50px;
+    border-radius:5px; 
+}
+.pix_ct img{
+    border-radius:3px;
 }
 .per_off{
-    background-color: brown;
+    background-color: #7e7a7a78;
     padding:10px 10px 50px;
+    border-radius:5px;
+}
+.per_off img{
+    border-radius:3px;
 }
 .col_b_2{
     display:flex;
     justify-content: space-evenly;
     margin-top: 50px; 
+    border-radius:5px;
+}
+.per_A{
+    background-color: #7e7a7a78;
+    padding:10px 10px 50px; 
+    border-radius:5px;
+}
+.per_A img{
+    border-radius:3px;
+}
+.per_B{
+    background-color: #7e7a7a78;
+    padding:10px 10px 50px;
+    border-radius:5px;
+}
+.per_B img{
+    border-radius:3px;
+}
+.per_C{
+    background-color: #7e7a7a78;
+    padding:10px 10px 50px;
+    border-radius:5px;
+}
+.per_C img{
+    border-radius:3px; 
+}
+.per_D{
+    background-color: #7e7a7a78;
+    padding:10px 10px 50px;
+    border-radius:5px;
+}
+.per_D img{
+    border-radius:3px;
+}
+.btn_VA{
+    text-align: center;
+    margin-top:50px;
+}
+.btn_VA button{
+    padding:10px 50px;
+    font-size:18px;
+    border:0px solid;
+    cursor:pointer;
+    border-radius:15px;
+    background-color:#B917F2;
+    transition:0.5s ease-in-out;
+}
+.btn_VA button:hover{
+    background-color:#b817f200;
+    border:2px solid black;
+}
+/* About us section */
+.Abt_us{
+    padding:0px 50px;
+}
+.Abt_us h3{
+    font-size: 2.5em;
+    text-align: center;
+}
+.Abt_us p{
+    text-align: justify;
+    line-height: 2em;
+    font-size: 18px;
 }

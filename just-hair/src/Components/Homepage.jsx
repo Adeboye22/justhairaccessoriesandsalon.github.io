@@ -15,13 +15,13 @@ class Homepage extends Component {
   render() {
     return (
       <div>
-        {/* div for free delivery */}
+        {/* top section */}
         <div className={`${styles.col_a}`}>
           <div className={`${styles.col_a_1}`}>Free delivery on orders over N200,000</div>
           <div className={`${styles.col_a_2}`}>7 working days free return</div>
           <div className={`${styles.col_a_3}`}>72 hours delivery</div>
         </div>
-        {/* div for hero page */}
+        {/*  hero section */}
         <div className={`${styles.hero}`}>
           <div className={`${styles.hero_a}`}>
             <h3>New Arrivals</h3>
@@ -30,12 +30,13 @@ class Homepage extends Component {
           </div>
           <img src={HeroSection} alt="" width={300} />
         </div>
+        {/* buttons to products */}
         <div className={`${styles.btn_3}`}>
           <button className={`${styles.btn_3_a}`}>Lace Front Wigs</button>
           <button className={`${styles.btn_3_b}`}>Glueless HD Wigs</button>
           <button className={`${styles.btn_3_c}`}>Sew-in Weaves</button>
         </div>
-        {/* Must have choices */}
+        {/* Product display */}
         <div className={`${styles.col_b}`}>
           <div className={`${styles.col_b_1}`}>
             <article className={`${styles.bob_cut}`}><img src={BobCut} alt={"bob cut"} width={250} height={200}/></article>
@@ -44,19 +45,19 @@ class Homepage extends Component {
             <article className={`${styles.per_off}`}><img src={PercentOff} alt="" width={250} height={200}/></article>
           </div>
           <div className={`${styles.col_b_2}`}>
-            <article className={`${styles.per_A}`}><img src={PercentA} alt="" width={150} height={100}/></article>
-            <article className={`${styles.per_B}`}><img src={PercentB} alt="" width={150} height={100}/></article>
-            <article className={`${styles.per_C}`}><img src={PercentC} alt="" width={150} height={100}/></article>
-            <article className={`${styles.per_D}`}><img src={PercentD} alt="" width={150} height={100} /></article>
+            <article className={`${styles.per_A}`}><img src={PercentA} alt="" width={250} height={200}/></article>
+            <article className={`${styles.per_B}`}><img src={PercentB} alt="" width={250} height={200}/></article>
+            <article className={`${styles.per_C}`}><img src={PercentC} alt="" width={250} height={200}/></article>
+            <article className={`${styles.per_D}`}><img src={PercentD} alt="" width={250} height={200} /></article>
           </div>
-          {/* view all button */}
           <div className={`${styles.btn_VA}`}><button>View All</button></div>
+          {/* About us section */}
           <div className={`${styles.Abt_us}`}>
             <h3>About us</h3>
             <p>
-              &nbsp; Just Hair and Accessories Salon is your ultimate beauty store where you can shop in Warri, Delta state. Our amazing selection of high quality, yet affordable wigs; besides the <br />
-              hundreds of wig styles, we also carry a variety of different hair pieces from lace front wigs to ponytails. No matter your style, let Just Hair and Accessories Salon introduce <br />
-              you to the best hair extensions and wigs online and onsite. <br />
+              &nbsp; Just Hair and Accessories Salon is your ultimate beauty store where you can shop in Warri, Delta state. Our amazing selection of high quality, yet affordable wigs; besides the
+              hundreds of wig styles, we also carry a variety of different hair pieces from lace front wigs to ponytails. No matter your style, let Just Hair and Accessories Salon introduce
+              you to the best hair extensions and wigs online and onsite.
               &nbsp; Our selection is curated with everything you need to buy wigs online. Improve your Look with Just Hair and Accessories. It's all up to you with breadth-taking, sexy, and stunning styles.
             </p>
           </div>
