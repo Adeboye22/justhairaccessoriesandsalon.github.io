@@ -9,6 +9,7 @@
     padding-right: 75px;
     padding-bottom:30px;
     font-size: 20px;
+    color: white;
 }
 .col_a_2{
     margin-right: 50px;
@@ -16,10 +17,12 @@
     padding-right: 75px;
     padding-bottom:30px;
     font-size: 20px;
+    color:white; 
 }
 .col_a_3{
     padding-bottom:30px;
     font-size: 20px;
+    color:white;
 }
 /* hero section */
 .hero{
@@ -105,31 +108,50 @@
     justify-content: space-evenly;
 }
 .bob_cut{
-    background-color: #7e7a7a78;
+    background-color: #d1d0d0;
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.306);
     padding:10px 10px 50px;
     border-radius:5px;
 }
 .bob_cut img{
     border-radius:3px;
 }
+.bob_cut span{
+    margin:0px 80px;
+    font-size: 18px;
+    font-weight: bold;
+}
 .hol_ins_lks{
-    background-color: #7e7a7a78;
+    background-color: #d1d0d0;
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.306);
     padding:10px 10px 50px; 
     border-radius:5px; 
 }
 .hol_ins_lks img{
     border-radius:3px;
 }
+.hol_ins_lks span{
+    margin:0px 20px;
+    font-size: 18px;
+    font-weight: bold;
+}
 .pix_ct{
-    background-color: #7e7a7a78;
+    background-color: #d1d0d0;
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.306);
     padding:10px 10px 50px;
     border-radius:5px; 
 }
 .pix_ct img{
     border-radius:3px;
 }
+.pix_ct span{
+    margin:0px 80px;
+    font-size: 18px;
+    font-weight: bold;
+}
 .per_off{
-    background-color: #7e7a7a78;
+    background-color: #d1d0d0;
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.306);
     padding:10px 10px 50px;
     border-radius:5px;
 }
@@ -143,7 +165,8 @@
     border-radius:5px;
 }
 .per_A{
-    background-color: #7e7a7a78;
+    background-color: #d1d0d0;
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.306);
     padding:10px 10px 50px; 
     border-radius:5px;
 }
@@ -151,7 +174,8 @@
     border-radius:3px;
 }
 .per_B{
-    background-color: #7e7a7a78;
+    background-color: #d1d0d0;
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.306);
     padding:10px 10px 50px;
     border-radius:5px;
 }
@@ -159,7 +183,8 @@
     border-radius:3px;
 }
 .per_C{
-    background-color: #7e7a7a78;
+    background-color: #d1d0d0;
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.306);
     padding:10px 10px 50px;
     border-radius:5px;
 }
@@ -167,7 +192,8 @@
     border-radius:3px; 
 }
 .per_D{
-    background-color: #7e7a7a78;
+    background-color: #d1d0d0;
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.306);
     padding:10px 10px 50px;
     border-radius:5px;
 }
@@ -185,11 +211,13 @@
     cursor:pointer;
     border-radius:15px;
     background-color:#B917F2;
+    color:white;
     transition:0.5s ease-in-out;
 }
 .btn_VA button:hover{
     background-color:#b817f200;
     border:2px solid black;
+    color:black;
 }
 /* About us section */
 .Abt_us{

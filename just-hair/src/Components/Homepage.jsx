@@ -39,9 +39,9 @@ class Homepage extends Component {
         {/* Product display */}
         <div className={`${styles.col_b}`}>
           <div className={`${styles.col_b_1}`}>
-            <article className={`${styles.bob_cut}`}><img src={BobCut} alt={"bob cut"} width={250} height={200}/></article>
-            <article className={`${styles.hol_ins_lks}`}><img src={HolidayInspiredLooks} alt="" width={250} height={200}/></article>
-            <article className={`${styles.pix_ct}`}><img src={PixieCut} alt="" width={250} height={200}/></article>
+            <article className={`${styles.bob_cut}`}><img src={BobCut} alt={"bob cut"} width={250} height={200}/> <br/><span>Bob Cut</span></article>
+            <article className={`${styles.hol_ins_lks}`}><img src={HolidayInspiredLooks} alt="" width={250} height={200}/><br/><span>Holiday Inspired Looks</span></article>
+            <article className={`${styles.pix_ct}`}><img src={PixieCut} alt="" width={250} height={200}/><br/><span>Pixie Cut</span></article>
             <article className={`${styles.per_off}`}><img src={PercentOff} alt="" width={250} height={200}/></article>
           </div>
           <div className={`${styles.col_b_2}`}>
