@@ -1,0 +1,16 @@
+/* styling for services */
+
+/* manicure section */
+.man_h{
+    text-shadow: 2px 4px rgba(2, 2, 2, 0.715);
+    margin-left:1em;
+    color:white;
+}
+.man_d_1{
+    display:flex;
+    justify-content: space-evenly;
+}
+.man_d_2{
+    display:flex;
+    justify-content: space-evenly;
+}
