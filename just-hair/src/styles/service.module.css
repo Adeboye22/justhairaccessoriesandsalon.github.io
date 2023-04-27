@@ -1,4 +1,12 @@
 /* styling for services */
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    margin:0px;
+}
 
 /* manicure section */
 .man_h{
@@ -9,8 +17,87 @@
 .man_d_1{
     display:flex;
     justify-content: space-evenly;
+    margin: 70px 0px 0px 0px;
+    padding: 20px 10px;
 }
 .man_d_2{
     display:flex;
     justify-content: space-evenly;
+    margin: 70px 0px 100px 0px;
+    padding: 20px 10px;
+}
+.man_btn{
+    text-align: center;
+    padding-bottom:100px;
+}
+.man_btn button{
+    padding:10px 50px;
+    border: none;
+    outline: 3px solid #B917F2;
+    border-radius: 15px;
+    background-color: #B917F2;
+    color:white;
+    cursor:pointer;
+    font-size:18px;
+    transition: all 0.3s;
+}
+.man_btn button:is(:hover,:focus){
+    outline-offset: 3px;
+}
+.ped_h{
+    text-shadow: 2px 4px rgba(2, 2, 2, 0.715);
+    margin-left:1em;
+    color:white;
+}
+.ped_d_1{
+    display:flex;
+    justify-content: space-evenly;
+    margin: 70px 0px 100px 0px;
+    padding: 20px 10px;
+}
+.ped_btn{
+    text-align: center;
+    padding-bottom: 100px;
+}
+.ped_btn button{
+    padding:10px 50px;
+    border: none;
+    outline: 3px solid #B917F2;
+    border-radius: 15px;
+    background-color: #B917F2;
+    color:white;
+    font-size:18px;
+    cursor:pointer;
+    transition: all 0.3s;
+}
+.ped_btn button:is(:hover,:focus){
+    outline-offset: 3px;
+}
+.gele_h{
+    text-shadow: 2px 2px rgba(2, 2, 2, 0.621);
+    margin-left:1em;
+    color:white;
+}
+.gele_d_1{
+    display:flex;
+    justify-content: space-evenly;
+    margin: 70px 0px 100px 0px;
+    padding: 20px 10px;
+}
+.gele_btn{
+    text-align: center;
+}
+.gele_btn button{
+    padding:10px 50px;
+    border: none;
+    outline: 3px solid #B917F2;
+    border-radius: 15px;
+    background-color: #B917F2;
+    color:white;
+    font-size: 18px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+.gele_btn button:is(:hover,:focus){
+    outline-offset: 3px;
 }
