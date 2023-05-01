@@ -1,17 +1,8 @@
 /* styling for services */
-*{
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
-}
-body{
-    margin:0px;
-}
-
 /* manicure section */
 .man_h{
     text-shadow: 2px 4px rgba(2, 2, 2, 0.715);
-    margin-left:1em;
+    margin-left:5em;
     color:white;
 }
 .man_d_1{
@@ -20,11 +11,29 @@ body{
     margin: 70px 0px 0px 0px;
     padding: 20px 10px;
 }
+.man_i_1 img{
+    border-radius: 10px;
+}
+.man_i_2 img{
+    border-radius: 10px;
+}
+.man_i_3 img{
+    border-radius: 10px;
+}
 .man_d_2{
     display:flex;
     justify-content: space-evenly;
-    margin: 70px 0px 100px 0px;
+    margin: 10px 0px 50px 0px;
     padding: 20px 10px;
+}
+.man_i_4 img{
+    border-radius: 10px;
+}
+.man_i_5 img{
+    border-radius: 10px;
+}
+.man_i_6 img{
+    border-radius: 10px;
 }
 .man_btn{
     text-align: center;
@@ -44,16 +53,26 @@ body{
 .man_btn button:is(:hover,:focus){
     outline-offset: 3px;
 }
+/* pedicure section */
 .ped_h{
-    text-shadow: 2px 4px rgba(2, 2, 2, 0.715);
-    margin-left:1em;
+    text-shadow: 2px 3px rgba(2, 2, 2, 0.235);
+    margin-left:5em;
     color:white;
 }
 .ped_d_1{
     display:flex;
     justify-content: space-evenly;
-    margin: 70px 0px 100px 0px;
+    margin: 70px 0px 50px 0px;
     padding: 20px 10px;
+}
+.ped_i_1 img{
+    border-radius: 10px; 
+}
+.ped_i_2 img{
+    border-radius: 10px;
+}
+.ped_i_3 img{
+    border-radius: 10px;
 }
 .ped_btn{
     text-align: center;
@@ -73,16 +92,23 @@ body{
 .ped_btn button:is(:hover,:focus){
     outline-offset: 3px;
 }
+/* gele section */
 .gele_h{
-    text-shadow: 2px 2px rgba(2, 2, 2, 0.621);
-    margin-left:1em;
-    color:white;
+    text-shadow: 2px 2px rgba(2, 2, 2, 0.189);
+    margin-left:5em;
+    color:#B917F2;
 }
 .gele_d_1{
     display:flex;
     justify-content: space-evenly;
-    margin: 70px 0px 100px 0px;
+    margin: 70px 0px 50px 0px;
     padding: 20px 10px;
+}
+.gele_i_1 img{
+    border-radius: 10px;
+}
+.gele_i_2 img{
+    border-radius: 10px;
 }
 .gele_btn{
     text-align: center;

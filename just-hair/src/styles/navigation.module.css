@@ -22,8 +22,48 @@ nav ul{
     list-style: none;
 }
 nav ul li{
-    padding-right: 70px;
+    padding-right: 60px;
     margin-top: 15px;
+    font-weight: 500;
+}
+nav ul li:active{
+    text-decoration: underline solid 2px;
+}
+.home{
+    text-decoration: none;
+    color:black;
+}
+.home:hover{
+    background-color: rgba(0, 0, 0, 0.055);
+    padding:5px 5px;
+    border-radius: 5px;
+}
+.services{
+    text-decoration: none;
+    color:black;
+}
+.services:hover{
+    background-color: rgba(0, 0, 0, 0.055);
+    padding:5px 5px;
+    border-radius: 5px;
+}
+.products{
+    text-decoration: none;
+    color:black;
+}
+.products:hover{
+    background-color: rgba(0, 0, 0, 0.055);
+    padding:5px 5px;
+    border-radius: 5px;
+}
+.reviews{
+    text-decoration: none;
+    color:black;
+}
+.reviews:hover{
+    background-color: rgba(0, 0, 0, 0.055);
+    padding:5px 5px;
+    border-radius: 5px;
 }
 nav ul button{
     margin-right: 0px;

@@ -13,10 +13,10 @@ function Navigation() {
         {/* app navigation bar */}
         <nav>
           <ul>
-            <li><Link to="/">Home</Link></li>
-            <li><Link to="Service" >Services</Link></li>
-            <li><Link to="Product">Products</Link></li>
-            <li><Link to="Review">Reviews</Link></li>
+            <li><Link to="/" className={`${styles.home}`}>Home</Link></li>
+            <li><Link to="Service" className={`${styles.services}`}>Services</Link></li>
+            <li><Link to="Product" className={`${styles.products}`}>Products</Link></li>
+            <li><Link to="Review" className={`${styles.reviews}`}>Reviews</Link></li>
             <button>Contact Us</button>
           </ul>
         </nav>

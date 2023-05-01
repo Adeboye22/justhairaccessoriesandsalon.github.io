@@ -7,7 +7,7 @@ import ArcrylicNails from '../assets/ArcrylicNails.jpg'
 import FingerNails1 from '../assets/FingerNails1.jpg'
 import FingerNails2 from '../assets/FingerNails2.jpg'
 import FingerNails3 from '../assets/FingerNails3.jpg'
-import ToeNails1 from '../assets/FingerNails1.jpg'
+import ToeNails1 from '../assets/ToeNails1.jpg'
 import BlackToeNails from '../assets/BlackToeNails.jpg'
 import ToeNails2 from '../assets/ToeNails2.jpg'
 import Gele1 from '../assets/Gele1.jpg'
@@ -19,6 +19,7 @@ class Service extends Component {
       <div>
         <section className={`${styles.man}`}>
           <h1 className={`${styles.man_h}`}>Manicure</h1>
+          <p>We have one of the best manicure services with professional beauticians to make your nails look pretty clean.</p>
           <div className={`${styles.man_d_1}`}>
             <article className={`${styles.man_i_1}`}><img src={BridalNails} alt="" width={250} height={200}/></article>
             <article className={`${styles.man_i_2}`}><img src={BlackFingerNails} alt="" width={250} height={200}/></article>
