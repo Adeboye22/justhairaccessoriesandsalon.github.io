@@ -24,3 +24,21 @@ section.second_section div{
     background-color: #b817f22f;
     padding: 10px 20px 10px 20px;
 }
+@media only screen and (max-width: 600px){
+    hr{
+        margin: 100px 10px 0px 10px;
+    }
+    section.first_section{
+        padding: 30px 100px 0px 50px;
+        display: flex;
+        flex-direction: column;
+        justify-content:space-between;
+    }
+    section.second_section div{
+        border: 1px rgba(0, 0, 0, 0) solid;
+        border-radius: 2px;
+        background-color: #b817f22f;
+        padding: 10px 20px 10px 20px;
+        margin: 0px -50px 0px -50px;
+    }
+}
