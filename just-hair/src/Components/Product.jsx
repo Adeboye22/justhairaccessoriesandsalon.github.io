@@ -1,14 +1,12 @@
-import React, { Component } from 'react'
+import React from 'react'
 import {Link} from 'react-router-dom'
 
-class Product extends Component {
-  render() {
+function Product() {
     return (
       <div>
         Product
       </div>
     )
-  }
 }
 
 export default Product

@@ -17,37 +17,37 @@ class Service extends Component {
   render() {
     return (
       <div>
-        <section className={`${styles.man}`}>
-          <h1 className={`${styles.man_h}`}>Manicure</h1>
+        <section className="man">
+          <h1 className="man_h">Manicure</h1>
           <p>We have one of the best manicure services with professional beauticians to make your nails look pretty clean.</p>
-          <div className={`${styles.man_d_1}`}>
-            <article className={`${styles.man_i_1}`}><img src={BridalNails} alt="" width={250} height={200}/></article>
-            <article className={`${styles.man_i_2}`}><img src={BlackFingerNails} alt="" width={250} height={200}/></article>
-            <article className={`${styles.man_i_3}`}><img src={ArcrylicNails} alt="" width={250} height={200}/></article>
+          <div className="man_d_1">
+            <article className="man_i_1"><img src={BridalNails} alt="" width={250} height={200}/></article>
+            <article className="man_i_2"><img src={BlackFingerNails} alt="" width={250} height={200}/></article>
+            <article className="man_i_3"><img src={ArcrylicNails} alt="" width={250} height={200}/></article>
           </div>
-          <div className={`${styles.man_d_2}`}>
-            <article className={`${styles.man_i_4}`}><img src={FingerNails1} alt="" width={250} height={200}/></article>
-            <article className={`${styles.man_i_5}`}><img src={FingerNails2} alt="" width={250} height={200}/></article>
-            <article className={`${styles.man_i_6}`}><img src={FingerNails3} alt="" width={250} height={200}/></article>
+          <div className="man_d_2">
+            <article className="man_i_4"><img src={FingerNails1} alt="" width={250} height={200}/></article>
+            <article className="man_i_5"><img src={FingerNails2} alt="" width={250} height={200}/></article>
+            <article className="man_i_6"><img src={FingerNails3} alt="" width={250} height={200}/></article>
           </div>
-          <div className={`${styles.man_btn}`}><button>Book a service</button></div>
+          <div className="man_btn"><button>Book a service</button></div>
         </section>
-        <section className={`${styles.ped}`}>
-          <h1 className={`${styles.ped_h}`}>Pedicure</h1>
-          <div className={`${styles.ped_d_1}`}>
-            <article className={`${styles.ped_i_1}`}><img src={ToeNails1} alt="" width={250} height={200}/></article>
-            <article className={`${styles.ped_i_2}`}><img src={BlackToeNails} alt="" width={250} height={200}/></article>
-            <article className={`${styles.ped_i_3}`}><img src={ToeNails2} alt="" width={250} height={200}/></article>
+        <section className="ped">
+          <h1 className="ped_h">Pedicure</h1>
+          <div className="ped_d_1">
+            <article className="ped_i_1"><img src={ToeNails1} alt="" width={250} height={200}/></article>
+            <article className="ped_i_2"><img src={BlackToeNails} alt="" width={250} height={200}/></article>
+            <article className="ped_i_3"><img src={ToeNails2} alt="" width={250} height={200}/></article>
           </div>
-          <div className={`${styles.ped_btn}`}><button>Book a service</button></div>
+          <div className="ped_btn"><button>Book a service</button></div>
         </section>
-        <section className={`${styles.gele}`}>
-          <h1 className={`${styles.gele_h}`}>Make-Up and Gele</h1>
-          <div className={`${styles.ped_d_1}`}>
-            <article className={`${styles.gele_i_1}`}><img src={Gele1} alt="" width={250} height={200}/></article>
-            <article className={`${styles.gele_i_2}`}><img src={Gele2} alt="" width={250} height={200}/></article>
+        <section className="gele">
+          <h1 className="gele_h">Make-Up and Gele</h1>
+          <div className="ped_d_1">
+            <article className="gele_i_1"><img src={Gele1} alt="" width={250} height={200}/></article>
+            <article className="gele_i_2"><img src={Gele2} alt="" width={250} height={200}/></article>
           </div>
-          <div className={`${styles.gele_btn}`}><button>Book a service</button></div>
+          <div className="gele_btn"><button>Book a service</button></div>
         </section>
       </div>
     )

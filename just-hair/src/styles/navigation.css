@@ -1,0 +1,150 @@
+/* styling for nav bar */
+
+header{
+    display:flex;
+}
+:root{
+    --navColor: black;
+    --backdropColor: whitesmoke;
+}
+header img{
+    padding: 50px 5px;
+    margin-left: 150px;
+    height: 100px;
+    width: 110px;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    margin-left: 50px;
+    padding-right: 40px;
+    padding-left: 40px;
+    background-color: var(--backdropColor);
+    border-radius: 10px;
+}
+nav ul{
+    display:flex;
+    list-style: none;
+}
+nav ul li{
+    display: flex;
+    padding-right: 60px;
+    margin-top: 15px;
+    transition:1s ease-in-out
+}
+nav ul li:hover{
+    text-decoration: underline solid 2px;
+}
+.home,
+.services,
+.products,
+.reviews{
+    text-decoration: none;
+    color: var(--navColor);
+    font-size: 20px;
+    cursor: pointer;
+    font-weight: 500;
+}
+nav button {
+    margin-right: 0px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding: 15px;
+    border-radius: 7px;
+    font-size: 16px;
+    cursor:pointer;
+    background: #B917F2;
+}
+nav button a{
+    text-decoration: none;
+    color:white;
+}
+.txtDecor{
+    text-decoration: underline;
+}
+.navCloseBtn{
+    padding:5px;
+    background: transparent;
+    border: none;
+    outline: none;
+    display:none;
+}
+.navBtn{
+    padding:5px;
+    background: transparent;
+    border: none;
+    outline: none;
+    display:none;
+}
+@media only screen and (max-width: 600px){
+    header{
+        display:flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    header img{
+        padding: 50px 5px;
+        margin-left: 30px;
+        height: 30px;
+        width:35px;
+    }
+    .navBtn{
+        top: 0;
+        display:block;
+        margin-right: 30px;
+        font-size: 22px;
+        color: white;
+    }
+    header nav{
+        position:fixed;
+        margin-top: 0px;
+        top: 0;
+        right: 0;
+        padding-top:10rem;
+        height:100%;
+        width: 25%;
+        border-radius:20px 0px 0px 0px;
+        display:flex;
+        flex-direction: column;
+        background-color: whitesmoke;
+        transition: all 1s ease-in-out;
+        transform: translateX(100vh)
+    }
+    header .responsiveNav{
+        transform: none;
+    }
+    nav button {
+        padding: 10px;
+        border-radius: 7px;
+        font-size: 14px;
+        background: #B917F2;
+    }
+    nav ul{
+        display:flex;
+        flex-direction: column;
+        align-items:center;
+        justify-content:center;
+        gap: 1.5rem;
+        margin-top: 0rem;
+        font-size: 12px;
+    }
+    .home,
+    .services,
+    .products,
+    .reviews{
+        text-decoration: none;
+        color: var(--navColor);
+        font-size: 14px;
+        font-weight: 500;
+        cursor: pointer;
+    }
+    .navCloseBtn{
+        display: block;
+        position: absolute;
+        top: 2rem;
+        right:2rem;
+        font-size: 22px;
+    }
+}

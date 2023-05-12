@@ -1,25 +1,34 @@
-import React from 'react';
+import React, { useRef } from 'react';
+import { FaBars, FaTimes } from "react-icons/fa";
 import JustHairLogo from '../assets/JustHairLogo.png';
-import styles from '../styles/navigation.module.css';
-import {Link} from 'react-router-dom';
+import '../styles/navigation.css';
+import {Link, NavLink} from 'react-router-dom';
 
 //this component the header file that links to all the pages of the app 
 function Navigation() {
+  const navRef = useRef();
+
+  const showNavBar = () =>{
+    navRef.current.classList.toggle("responsiveNav");
+  }
+
   return (
     <div>
       <header> 
         {/* app logo */}
-        <img src={JustHairLogo} alt={"JustHair"} width= {110} height={100}/>
+        <img src={JustHairLogo} alt={"JustHair"}  />
         {/* app navigation bar */}
-        <nav>
+        <nav ref = {navRef}>
           <ul>
-            <li><Link to="/" className={`${styles.home}`}>Home</Link></li>
-            <li><Link to="Service" className={`${styles.services}`}>Services</Link></li>
-            <li><Link to="Product" className={`${styles.products}`}>Products</Link></li>
-            <li><Link to="Review" className={`${styles.reviews}`}>Reviews</Link></li>
-            <button>Contact Us</button>
+            <li><Link to="/" className="home">Home</Link></li>
+            <li><Link to="Service" className="services">Services</Link></li>
+            <li><Link to="Product" className="products">Products</Link></li>
+            <li><Link to="Review" className="reviews" >Reviews</Link></li>
           </ul>
+          <button><a href="https://api.whatsapp.com/send/?phone=2347086582442&text&type=phone_number&app_absent=0" target='_blank'>Contact Us</a></button>
+          <button className="navCloseBtn" onClick={showNavBar}><FaTimes /></button>
         </nav>
+        <button className="navBtn" onClick={showNavBar}><FaBars /></button>
       </header>
     </div>
   )
