@@ -32,7 +32,7 @@ nav ul li{
     display: flex;
     padding-right: 60px;
     margin-top: 15px;
-    transition:1s ease-in-out
+    transition: all 1s ease-in-out;
 }
 nav ul li:hover{
     text-decoration: underline solid 2px;

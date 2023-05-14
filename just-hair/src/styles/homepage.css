@@ -64,7 +64,8 @@
     border:2px solid;
 }
 .hero img{
-    border-radius:5px;
+    border-radius: 5px;
+    width: 30%;
 }
 /* buttons to products */
 .btn_3{
@@ -231,4 +232,333 @@
     text-align: justify;
     line-height: 2em;
     font-size: 18px;
+}
+@media only screen and (max-width: 600px){
+    .col_a{
+        display:none;
+    }
+    /* hero section */
+    .hero{
+        background-color: white;
+        width:23em;
+        padding: 0em;
+        margin: 20px 0px 0px 10px;
+        border-radius: 10px;
+        margin-bottom:50px;
+    }
+    .hero_a{
+        margin-right: 0em;
+        padding: 10px 0px 20px 0px;
+    }
+    .hero_a h3{
+        margin-left: 0em;
+        text-shadow: 1px 1px rgba(0, 0, 0, 0.507);
+        font-size: 16px;
+    }
+    .hero_a span{
+        font-weight: 600;
+        font-size: 16px;
+    }
+    .hero_a button{
+        margin-top: 1em;
+        margin-left: 0em;
+        padding:10px;
+        font-size: 14px;
+        border-radius: 15px;
+        border:1px solid;
+        background-color:#B917F2;
+        color: white;
+        transition: 0.5s ease-in-out;
+    }
+    .hero_a button:hover{
+        background-color: white;
+        color: black;
+        border:2px solid;
+    }
+    .hero img{
+        border-radius: 5px;
+        width: 35%;
+        height: 25%;
+        margin: 2em 0em 2em 4em;
+    }
+    /* buttons to products */
+    .btn_3{
+        display:flex;
+        flex-direction: row;
+        width: 100%;
+        justify-content:space-evenly;
+        padding: 0em;
+    }
+    .btn_3_a{
+        padding: 15px 15px;
+        border-radius:10px;
+        border:0px solid;
+        font-size: 10px;
+        font-weight: 600;
+        background-color: #e2b0f4;
+        box-shadow: 2px 3px rgba(0, 0, 0, 0.358);
+    }
+    .btn_3_b{
+        padding: 15px 15px;
+        border-radius:10px;
+        border:0px solid;
+        font-size: 10px;
+        font-weight: 600;
+        background-color: #e2b0f4;
+        box-shadow: 2px 3px rgba(0, 0, 0, 0.358);
+    }
+    .btn_3_c{
+        padding: 15px 15px;
+        border-radius:10px;
+        border:0px solid;
+        font-size: 10px;
+        font-weight: 600;
+        background-color: #e2b0f4;
+        box-shadow: 2px 3px rgba(0, 0, 0, 0.358);
+    }
+    /* Product display */
+    .col_b{
+        width: 100%;;
+    }
+    .col_b_1{
+        display:flex;
+        flex-direction: column;
+        padding: 70px;
+    }
+    .bob_cut{
+        background-color: #d1d0d0;
+        box-shadow: 5px 5px rgba(0, 0, 0, 0.306);
+        padding: 1px;
+        border-radius:5px;
+    }
+    .bob_cut img{
+        border-radius:3px;
+        width: 25%;
+        height: 20%;
+    }
+    .bob_cut span{
+        font-size: 8px;
+        font-weight: bold;
+    }
+    .hol_ins_lks{
+        background-color: #d1d0d0;
+        box-shadow: 5px 5px rgba(0, 0, 0, 0.306);
+        padding: 1px; 
+        border-radius:5px; 
+    }
+    .hol_ins_lks img{
+        border-radius:3px;
+        width: 25%;
+        height: 20%;
+    }
+    .hol_ins_lks span{
+        margin:0px 20px;
+        font-size: 18px;
+        font-weight: bold;
+    }
+    .pix_ct{
+        background-color: #d1d0d0;
+        box-shadow: 5px 5px rgba(0, 0, 0, 0.306);
+        padding:1px;
+        border-radius:5px; 
+    }
+    .pix_ct img{
+        border-radius:3px;
+        width: 25%;
+        height: 20%;
+    }
+    .pix_ct span{
+        margin:0px 80px;
+        font-size: 18px;
+        font-weight: bold;
+    }
+    .per_off{
+        background-color: #d1d0d0;
+        box-shadow: 5px 5px rgba(0, 0, 0, 0.306);
+        padding:1px;
+        border-radius:5px;
+    }
+    .per_off img{
+        border-radius:3px;
+        width: 25%;
+        height: 20%;
+    }
+    .col_b_2{
+        display:flex;
+        flex-direction: column;
+        margin-top: 50px; 
+        border-radius:5px;
+    }
+    .per_A{
+        background-color: #d1d0d0;
+        box-shadow: 5px 5px rgba(0, 0, 0, 0.306);
+        padding:10px 10px 50px; 
+        border-radius:5px;
+        width: 25%;
+        height: 20%;
+    }
+    .per_A img{
+        border-radius:3px;
+    }
+    .per_B{
+        background-color: #d1d0d0;
+        box-shadow: 5px 5px rgba(0, 0, 0, 0.306);
+        padding:10px 10px 50px;
+        border-radius:5px;
+    }
+    .per_B img{
+        border-radius:3px;
+    }
+    .per_C{
+        background-color: #d1d0d0;
+        box-shadow: 5px 5px rgba(0, 0, 0, 0.306);
+        padding:10px 10px 50px;
+        border-radius:5px;
+    }
+    .per_C img{
+        border-radius:3px; 
+    }
+    .per_D{
+        background-color: #d1d0d0;
+        box-shadow: 5px 5px rgba(0, 0, 0, 0.306);
+        padding:10px 10px 50px;
+        border-radius:5px;
+    }
+    .per_D img{
+        border-radius:3px;
+    }
+    .btn_VA{
+        text-align: center;
+        margin-top:50px;
+        padding-bottom: 100px;
+    }
+    .btn_VA button{
+        padding:10px 50px;
+        font-size:18px;
+        border:none;
+        outline:3px solid #B917F2;
+        cursor:pointer;
+        border-radius:15px;
+        background-color:#B917F2;
+        color:white;
+        transition:all 0.3s ;
+    }
+    .btn_VA button:is(:hover,:focus){
+        outline-offset: 3px;
+    }
+    .col_b_1{
+    display:flex;
+    justify-content: space-evenly;
+    }
+    .bob_cut{
+        background-color: #d1d0d0;
+        box-shadow: 5px 5px rgba(0, 0, 0, 0.306);
+        padding:10px 10px 50px;
+        border-radius:5px;
+    }
+    .bob_cut img{
+        border-radius:3px;
+    }
+    .bob_cut span{
+        margin:0px 80px;
+        font-size: 18px;
+        font-weight: bold;
+    }
+    .hol_ins_lks{
+        background-color: #d1d0d0;
+        box-shadow: 5px 5px rgba(0, 0, 0, 0.306);
+        padding:10px 10px 50px; 
+        border-radius:5px; 
+    }
+    .hol_ins_lks img{
+        border-radius:3px;
+    }
+    .hol_ins_lks span{
+        margin:0px 20px;
+        font-size: 18px;
+        font-weight: bold;
+    }
+    .pix_ct{
+        background-color: #d1d0d0;
+        box-shadow: 5px 5px rgba(0, 0, 0, 0.306);
+        padding:10px 10px 50px;
+        border-radius:5px; 
+    }
+    .pix_ct img{
+        border-radius:3px;
+    }
+    .pix_ct span{
+        margin:0px 80px;
+        font-size: 18px;
+        font-weight: bold;
+    }
+    .per_off{
+        background-color: #d1d0d0;
+        box-shadow: 5px 5px rgba(0, 0, 0, 0.306);
+        padding:10px 10px 50px;
+        border-radius:5px;
+    }
+    .per_off img{
+        border-radius:3px;
+    }
+    .col_b_2{
+        display:flex;
+        justify-content: space-evenly;
+        margin-top: 50px; 
+        border-radius:5px;
+    }
+    .per_A{
+        background-color: #d1d0d0;
+        box-shadow: 5px 5px rgba(0, 0, 0, 0.306);
+        padding:10px 10px 50px; 
+        border-radius:5px;
+    }
+    .per_A img{
+        border-radius:3px;
+    }
+    .per_B{
+        background-color: #d1d0d0;
+        box-shadow: 5px 5px rgba(0, 0, 0, 0.306);
+        padding:10px 10px 50px;
+        border-radius:5px;
+    }
+    .per_B img{
+        border-radius:3px;
+    }
+    .per_C{
+        background-color: #d1d0d0;
+        box-shadow: 5px 5px rgba(0, 0, 0, 0.306);
+        padding:10px 10px 50px;
+        border-radius:5px;
+    }
+    .per_C img{
+        border-radius:3px; 
+    }
+    .per_D{
+        background-color: #d1d0d0;
+        box-shadow: 5px 5px rgba(0, 0, 0, 0.306);
+        padding:10px 10px 50px;
+        border-radius:5px;
+    }
+    .per_D img{
+        border-radius:3px;
+    }
+    .btn_VA{
+        text-align: center;
+        margin-top:50px;
+        padding-bottom: 100px;
+    }
+    .btn_VA button{
+        padding:10px 50px;
+        font-size:16px;
+        border:none;
+        outline:3px solid #B917F2;
+        border-radius:15px;
+        background-color:#B917F2;
+        color:white;
+        transition:all 0.3s ;
+    }
+    .btn_VA button:is(:hover,:focus){
+        outline-offset: 3px;
+    }
 }

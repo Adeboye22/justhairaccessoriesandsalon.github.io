@@ -31,7 +31,7 @@ class Homepage extends Component {
             <span>Up to 20% discount</span><br/>
             <button onClick={this.ProductPage}>Check Now</button>
           </div>
-          <img src={HeroSection} alt="" width={300} />
+          <img src={HeroSection} alt=""  />
         </div>
         {/* buttons to products */}
         <div className="btn_3">
