@@ -12,6 +12,11 @@ function Navigation() {
     navRef.current.classList.toggle("responsiveNav");
   }
 
+  const navLink = (isActive) => {
+  
+    
+  }
+
   return (
     <div>
       <header> 
@@ -20,10 +25,10 @@ function Navigation() {
         {/* app navigation bar */}
         <nav ref = {navRef}>
           <ul>
-            <li><Link to="/" className="home">Home</Link></li>
-            <li><Link to="Service" className="services">Services</Link></li>
-            <li><Link to="Product" className="products">Products</Link></li>
-            <li><Link to="Review" className="reviews" >Reviews</Link></li>
+            <li><NavLink to="/" className="home">Home</NavLink></li>
+            <li><NavLink to="Service" className="services">Services</NavLink></li>
+            <li><NavLink to="Product" className="products">Products</NavLink></li>
+            <li><NavLink to="Review" className="reviews" >Reviews</NavLink></li>
           </ul>
           <button><a href="https://api.whatsapp.com/send/?phone=2347086582442&text&type=phone_number&app_absent=0" target='_blank'>Contact Us</a></button>
           <button className="navCloseBtn" onClick={showNavBar}><FaTimes /></button>

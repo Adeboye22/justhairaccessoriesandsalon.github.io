@@ -42,18 +42,29 @@ class Homepage extends Component {
         {/* Product display */}
         <div className="col_b">
           <div className="col_b_1">
-            <article className="bob_cut"><img src={BobCut} alt={"bob cut"} width={250} height={200}/> <br/><span>Bob Cut</span></article>
-            <article className="hol_ins_lks"><img src={HolidayInspiredLooks} alt="" width={250} height={200}/><br/><span>Holiday Inspired Looks</span></article>
-            <article className="pix_ct"><img src={PixieCut} alt="" width={250} height={200}/><br/><span>Pixie Cut</span></article>
-            <article className="per_off"><img src={PercentOff} alt="" width={250} height={200}/></article>
+            <div className="col_b_1a">
+              <article className="bob_cut"><img src={BobCut} alt={"bob cut"} width={250} height={200}/></article>
+              <article className="hol_ins_lks"><img src={HolidayInspiredLooks} alt="" width={250} height={200}/></article>
+            </div>
+            <div className="col_b_1b">
+              <article className="pix_ct"><img src={PixieCut} alt="" width={250} height={200}/></article>
+              <article className="per_off"><img src={PercentOff} alt="" width={250} height={200}/></article>
+            </div>
+            
           </div>
           <div className="col_b_2">
-            <article className="per_A"><img src={PercentA} alt="" width={250} height={200}/></article>
-            <article className="per_B"><img src={PercentB} alt="" width={250} height={200}/></article>
-            <article className="per_C"><img src={PercentC} alt="" width={250} height={200}/></article>
-            <article className="per_D"><img src={PercentD} alt="" width={250} height={200} /></article>
+            <div className="col_b_2a">
+              <article className="per_A"><img src={PercentA} alt="" width={250} height={200}/></article>
+              <article className="per_B"><img src={PercentB} alt="" width={250} height={200}/></article>
+            </div>
+            <div className="col_b_2b">
+              <article className="per_C"><img src={PercentC} alt="" width={250} height={200}/></article>
+              <article className="per_D"><img src={PercentD} alt="" width={250} height={200} /></article>
+            </div>
           </div>
-          <div className="btn_VA"><button>View All</button></div>
+          <div className="btn_VA">
+            <button>View All</button>
+          </div>
           {/* About us section */}
           <div className="Abt_us">
             <h3>About us</h3>
