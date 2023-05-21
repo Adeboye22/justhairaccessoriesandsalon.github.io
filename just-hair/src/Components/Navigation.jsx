@@ -11,12 +11,6 @@ function Navigation() {
   const showNavBar = () =>{
     navRef.current.classList.toggle("responsiveNav");
   }
-
-  const navLink = (isActive) => {
-  
-    
-  }
-
   return (
     <div>
       <header> 

@@ -34,9 +34,6 @@ nav ul li{
     margin-top: 15px;
     transition: all 1s ease-in-out;
 }
-nav ul li:hover{
-    text-decoration: underline solid 2px;
-}
 .home,
 .services,
 .products,
@@ -55,7 +52,11 @@ nav button {
     border-radius: 7px;
     font-size: 16px;
     cursor:pointer;
+    transition: all 0.5s ease-in-out;
     background: #B917F2;
+}
+nav button:hover{
+    box-shadow: 2px 2px rgba(0, 0, 0, 0.539);
 }
 nav button a{
     text-decoration: none;

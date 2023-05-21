@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import {Link} from 'react-router-dom'
-import styles from '../styles/service.module.css'
+import styles from '../styles/service.css'
 import BridalNails from '../assets/BridalNails.jpg'
 import BlackFingerNails from '../assets/BlackFingerNails.jpg'
 import ArcrylicNails from '../assets/ArcrylicNails.jpg'

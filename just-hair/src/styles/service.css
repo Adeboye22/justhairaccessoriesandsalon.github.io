@@ -9,7 +9,7 @@
     display:flex;
     justify-content: space-evenly;
     margin: 70px 0px 0px 0px;
-    padding: 20px 10px;
+    padding: 0px 200px;
 }
 .man_i_1 img{
     border-radius: 10px;
@@ -24,10 +24,10 @@
     display:flex;
     justify-content: space-evenly;
     margin: 10px 0px 50px 0px;
-    padding: 20px 10px;
+    padding: 20px 200px;
 }
 .man_i_4 img{
-    border-radius: 10px;
+    border: rgb(206, 128, 10) solid 3px;
 }
 .man_i_5 img{
     border-radius: 10px;
