@@ -19,7 +19,7 @@ class Service extends Component {
       <div>
         <section className="man">
           <h1 className="man_h">Manicure</h1>
-          <p>We have one of the best manicure services with professional beauticians to make your nails look pretty clean.</p>
+          <p>We have one of the best manicure services with professional beauticians to make your nails look pretty and neat. Click the button below to book this service.</p>
           <div className="man_d_1">
             <article className="man_i_1"><img src={BridalNails} alt="" width={250} height={200}/></article>
             <article className="man_i_2"><img src={BlackFingerNails} alt="" width={250} height={200}/></article>
