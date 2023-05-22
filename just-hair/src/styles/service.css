@@ -62,8 +62,14 @@
 /* pedicure section */
 .ped_h{
     text-shadow: 2px 3px rgba(2, 2, 2, 0.235);
-    margin-left:5em;
-    color:white;
+    margin-left:2em;
+    color:Black;
+}
+.ped p{
+    color: black;
+    text-align: justify;
+    padding: 0rem 5rem;
+    font-size: 20px;
 }
 .ped_d_1{
     display:flex;
@@ -101,8 +107,14 @@
 /* gele section */
 .gele_h{
     text-shadow: 2px 2px rgba(2, 2, 2, 0.189);
-    margin-left:5em;
-    color:#B917F2;
+    margin-left:2em;
+    color:black;
+}
+.gele p{
+    color: black;
+    text-align: justify;
+    padding: 0rem 5rem;
+    font-size: 20px;
 }
 .gele_d_1{
     display:flex;

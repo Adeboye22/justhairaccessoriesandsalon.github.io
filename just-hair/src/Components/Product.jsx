@@ -4,7 +4,9 @@ import {Link} from 'react-router-dom'
 function Product() {
     return (
       <div>
-        Product
+        <section className="wigs">
+
+        </section>
       </div>
     )
 }

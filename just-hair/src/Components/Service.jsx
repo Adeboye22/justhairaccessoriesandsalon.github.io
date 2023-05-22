@@ -17,6 +17,7 @@ class Service extends Component {
   render() {
     return (
       <div>
+        {/* manicure section */}
         <section className="man">
           <h1 className="man_h">Manicure</h1>
           <p>We have one of the best manicure services with professional beauticians to make your nails look pretty and neat. Click the button below to book this service.</p>
@@ -32,8 +33,10 @@ class Service extends Component {
           </div>
           <div className="man_btn"><button>Book a service</button></div>
         </section>
+        {/* pedicure section */}
         <section className="ped">
           <h1 className="ped_h">Pedicure</h1>
+          <p>We have one of the best manicure services with professional beauticians to make your nails look pretty and neat. Click the button below to book this service.</p>
           <div className="ped_d_1">
             <article className="ped_i_1"><img src={ToeNails1} alt="" width={250} height={200}/></article>
             <article className="ped_i_2"><img src={BlackToeNails} alt="" width={250} height={200}/></article>
@@ -41,8 +44,10 @@ class Service extends Component {
           </div>
           <div className="ped_btn"><button>Book a service</button></div>
         </section>
+        {/* gele section */}
         <section className="gele">
           <h1 className="gele_h">Make-Up and Gele</h1>
+          <p>We have one of the best manicure services with professional beauticians to make your nails look pretty and neat. Click the button below to book this service.</p>
           <div className="ped_d_1">
             <article className="gele_i_1"><img src={Gele1} alt="" width={250} height={200}/></article>
             <article className="gele_i_2"><img src={Gele2} alt="" width={250} height={200}/></article>

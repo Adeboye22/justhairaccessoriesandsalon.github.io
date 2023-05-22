@@ -85,7 +85,7 @@
     transition: all 0.5s ease-in-out;
 }
 .btn_3_a:hover{
-    box-shadow: 5px 5px rgba(0, 0, 0, 0.306);
+    box-shadow: 10px 10px rgba(0, 0, 0, 0.306);
 }
 .btn_3_b{
     padding:15px 55px 15px 55px;
@@ -99,7 +99,7 @@
     transition: all 0.5s ease-in-out;
 }
 .btn_3_b:hover{
-    box-shadow: 5px 5px rgba(0, 0, 0, 0.306);
+    box-shadow: 10px 10px rgba(0, 0, 0, 0.306);
 }
 .btn_3_c{
     padding:15px 55px 15px 55px;
@@ -113,7 +113,7 @@
     transition: all 0.5s ease-in-out;
 }
 .btn_3_c:hover{
-    box-shadow: 5px 5px rgba(0, 0, 0, 0.306);
+    box-shadow: 10px 10px rgba(0, 0, 0, 0.306);
 }
 /* Product display */
 .col_b_1{

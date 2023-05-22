@@ -18,11 +18,48 @@ section.first_section{
 section.second_section{
     padding: 30px 100px 30px 100px;
 }
-section.second_section div{
+.col_4a{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.fb_icon a{
+    color: blue;
+    font-size: 20px;
+}
+.WA_icon a{
+    color: green;
+    font-size: 20px;
+}
+.inst_icon a{
+    color: rgb(161, 5, 5);
+    font-size: 20px;
+}
+section.second_section .col_5{
     border: 1px rgba(0, 0, 0, 0) solid;
     border-radius: 2px;
     background-color: #b817f22f;
     padding: 10px 20px 10px 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.col_5b{
+    display:flex;
+    flex-direction: row;
+    padding: 0rem 3rem;
+}
+.m_card{
+    font-size: 25px;
+    padding: 0rem 0.5rem
+}
+.a_pay{
+    font-size: 25px;
+    padding: 0rem 0.5rem;
+}
+.v_card{
+    font-size: 25px;
+    padding: 0rem 0.5rem;
 }
 @media only screen and (max-width: 600px){
     hr{
@@ -32,13 +69,37 @@ section.second_section div{
         padding: 30px 100px 0px 50px;
         display: flex;
         flex-direction: column;
-        justify-content:space-between;
     }
-    section.second_section div{
+    .col_4a{
+        display: flex;
+        flex-direction: row;
+        margin-right: 150px;
+    }
+    .fb_icon a{
+        color: blue;
+        font-size: 20px;
+        padding: 0px 10px;
+    }
+    .WA_icon a{
+        color: green;
+        font-size: 20px;
+        padding: 0px 10px;
+    }
+    .inst_icon a{
+        color: rgb(161, 5, 5);
+        font-size: 20px;
+        padding: 0px 10px;
+    }
+    section.second_section .col_5{
         border: 1px rgba(0, 0, 0, 0) solid;
         border-radius: 2px;
         background-color: #b817f22f;
         padding: 10px 20px 10px 20px;
-        margin: 0px -50px 0px -50px;
+        margin: 0px -50px;
+    }
+    .col_5b{
+        display:flex;
+        flex-direction: row;
+        padding: 0rem 0rem;
     }
 }
