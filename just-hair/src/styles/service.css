@@ -145,3 +145,162 @@
 .gele_btn button:is(:hover,:focus){
     outline-offset: 3px;
 }
+@media only screen and (max-width: 600px){
+    /* manicure section */
+    .man_d_1{
+        display:flex;
+        justify-content: space-evenly;
+        margin: 70px 0px 0px 0px;
+        padding: 0px 200px;
+    }
+    .man_i_1 img{
+        border: rgb(206, 128, 10) solid 3px;
+        width: 100px;
+        height: 100px;
+    }
+    .man_i_2 img{
+        border: rgb(206, 128, 10) solid 3px;
+        width: 100px;
+        height: 100px;
+    }
+    .man_i_3 img{
+        border: rgb(206, 128, 10) solid 3px;
+        width: 100px;
+        height: 100px;
+    }
+    .man_d_2{
+        display:flex;
+        justify-content: space-evenly;
+        margin: 10px 0px 50px 0px;
+        padding: 20px 200px;
+    }
+    .man_i_4 img{
+        border: rgb(206, 128, 10) solid 3px;
+        width: 100px;
+        height: 100px;
+    }
+    .man_i_5 img{
+        border: rgb(206, 128, 10) solid 3px;
+        width: 100px;
+        height: 100px;
+    }
+    .man_i_6 img{
+        border: rgb(206, 128, 10) solid 3px;
+        width: 100px;
+        height: 100px;
+    }
+    .man_btn{
+        text-align: center;
+        padding-bottom:100px;
+    }
+    .man_btn button{
+        padding:10px 20px;
+        border: none;
+        outline: 3px solid #B917F2;
+        border-radius: 15px;
+        background-color: #B917F2;
+        color:white;
+        cursor:pointer;
+        font-size:18px;
+        transition: all 0.3s;
+    }
+    .man_btn button:is(:hover,:focus){
+        outline-offset: 3px;
+    }
+    /* pedicure section */
+    .ped_h{
+        text-shadow: 2px 3px rgba(2, 2, 2, 0.235);
+        margin-left:2em;
+        color:Black;
+    }
+    .ped p{
+        color: black;
+        text-align: justify;
+        padding: 0rem 5rem;
+        font-size: 20px;
+    }
+    .ped_d_1{
+        display:flex;
+        justify-content: space-evenly;
+        margin: 70px 0px 50px 0px;
+        padding: 20px 200px;
+    }
+    .ped_i_1 img{
+        border: rgb(206, 128, 10) solid 3px;
+        width: 100px;
+        height: 100px;
+    }
+    .ped_i_2 img{
+        border: rgb(206, 128, 10) solid 3px;
+        width: 100px;
+        height: 100px;
+    }
+    .ped_i_3 img{
+        border: rgb(206, 128, 10) solid 3px;
+        width: 100px;
+        height: 100px;
+    }
+    .ped_btn{
+        text-align: center;
+        padding-bottom: 100px;
+    }
+    .ped_btn button{
+        padding:10px 20px;
+        border: none;
+        outline: 3px solid #B917F2;
+        border-radius: 15px;
+        background-color: #B917F2;
+        color:white;
+        font-size:18px;
+        cursor:pointer;
+        transition: all 0.3s;
+    }
+    .ped_btn button:is(:hover,:focus){
+        outline-offset: 3px;
+    }
+    /* gele section */
+.gele_h{
+    text-shadow: 2px 2px rgba(2, 2, 2, 0.189);
+    margin-left:2em;
+    color:black;
+}
+.gele p{
+    color: black;
+    text-align: justify;
+    padding: 0rem 5rem;
+    font-size: 20px;
+}
+.gele_d_1{
+    display:flex;
+    justify-content: space-evenly;
+    margin: 70px 0px 50px 0px;
+    padding: 0px 200px;
+}
+.gele_i_1 img{
+    border: rgb(206, 128, 10) solid 3px;
+    width: 100px;
+    height: 100px;
+}
+.gele_i_2 img{
+    border: rgb(206, 128, 10) solid 3px;
+    width: 100px;
+    height: 100px;
+}
+.gele_btn{
+    text-align: center;
+}
+.gele_btn button{
+    padding:10px 20px;
+    border: none;
+    outline: 3px solid #B917F2;
+    border-radius: 15px;
+    background-color: #B917F2;
+    color:white;
+    font-size: 18px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+.gele_btn button:is(:hover,:focus){
+    outline-offset: 3px;
+}
+}
