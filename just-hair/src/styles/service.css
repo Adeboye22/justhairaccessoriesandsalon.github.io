@@ -259,48 +259,48 @@
         outline-offset: 3px;
     }
     /* gele section */
-.gele_h{
-    text-shadow: 2px 2px rgba(2, 2, 2, 0.189);
-    margin-left:2em;
-    color:black;
-}
-.gele p{
-    color: black;
-    text-align: justify;
-    padding: 0rem 5rem;
-    font-size: 20px;
-}
-.gele_d_1{
-    display:flex;
-    justify-content: space-evenly;
-    margin: 70px 0px 50px 0px;
-    padding: 0px 200px;
-}
-.gele_i_1 img{
-    border: rgb(206, 128, 10) solid 3px;
-    width: 100px;
-    height: 100px;
-}
-.gele_i_2 img{
-    border: rgb(206, 128, 10) solid 3px;
-    width: 100px;
-    height: 100px;
-}
-.gele_btn{
-    text-align: center;
-}
-.gele_btn button{
-    padding:10px 20px;
-    border: none;
-    outline: 3px solid #B917F2;
-    border-radius: 15px;
-    background-color: #B917F2;
-    color:white;
-    font-size: 18px;
-    cursor: pointer;
-    transition: all 0.3s;
-}
-.gele_btn button:is(:hover,:focus){
-    outline-offset: 3px;
-}
+    .gele_h{
+        text-shadow: 2px 2px rgba(2, 2, 2, 0.189);
+        margin-left:2em;
+        color:black;
+    }
+    .gele p{
+        color: black;
+        text-align: justify;
+        padding: 0rem 5rem;
+        font-size: 20px;
+    }
+    .gele_d_1{
+        display:flex;
+        justify-content: space-evenly;
+        margin: 70px 0px 50px 0px;
+        padding: 0px 200px;
+    }
+    .gele_i_1 img{
+        border: rgb(206, 128, 10) solid 3px;
+        width: 100px;
+        height: 100px;
+    }
+    .gele_i_2 img{
+        border: rgb(206, 128, 10) solid 3px;
+        width: 100px;
+        height: 100px;
+    }
+    .gele_btn{
+        text-align: center;
+    }
+    .gele_btn button{
+        padding:10px 20px;
+        border: none;
+        outline: 3px solid #B917F2;
+        border-radius: 15px;
+        background-color: #B917F2;
+        color:white;
+        font-size: 18px;
+        cursor: pointer;
+        transition: all 0.3s;
+    }
+    .gele_btn button:is(:hover,:focus){
+        outline-offset: 3px;
+    }
 }

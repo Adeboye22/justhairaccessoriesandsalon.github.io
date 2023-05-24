@@ -1,0 +1,22 @@
+/* styling for products page */
+/* haircare section */
+
+:root{
+    --brdColor: rgb(206, 128, 10);
+}
+section.hairCare{
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.harCare_1{
+    border-right: solid 5px var(--brdColor);
+    display: flex;
+    flex-direction: column;
+}
+.hairCare_1 img{
+    width: 250px;
+    height: 200px;
+    border: solid var(--brdColor);
+}
