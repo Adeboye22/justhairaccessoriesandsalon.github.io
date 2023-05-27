@@ -25,6 +25,9 @@ The application is web-based and requires network data, and a sign-up/login acti
 Web application is still in progress!!!
 
 ## Technology Used
+ ### UI/UX
+ - Figma
+
  ### Languages Used
  - JavaScript
 
