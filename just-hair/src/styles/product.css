@@ -8,6 +8,7 @@
 /* hair care section */
 section.sec_1 h1{
     margin-left: 2rem;
+    color: white;
 }
 .hairCare{
     display: flex;
