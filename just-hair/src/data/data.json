@@ -1,0 +1,36 @@
+{
+    "services": [
+        {
+            "title": "Manicure",
+            "description": "We have the best manicure services with professional beauticians to make your nails look pretty and neat. Click the button below to book this service."
+        },
+        {
+            "title": "Pedicure",
+            "description": "We have one of the best pedicure services with professional beauticians to make your toe nails look pretty and neat. Click the button below to book this service."
+        },
+        {
+            "title": "Make-up and Gele",
+            "description": "We offer professional make-up services including eye-lashes fixing, facials, spot removals, and gele. Click the button below to book this service."
+        },
+        {
+            "title": "Fixing of Hairs",
+            "description": "We fix all types of hairs. Click the button below to book this service."
+        },
+        {
+            "title": "Wig Making",
+            "description": "We sew and revamp wigs. Click the button below to book this service"
+        },
+        {
+            "title": "Creative Haircuts",
+            "description": ""
+        },
+        {
+            "title": "Hair Treatments",
+            "description": ""
+        }, 
+        {
+            "title": "Hair Weaving",
+            "description": ""
+        }
+    ]
+}

@@ -29,9 +29,9 @@ function Base() {
                 <div className="col_4">
                     <h4>Stay connected</h4>
                     <div className="col_4a">
-                        <article className="fb_icon"><a href="https://www.facebook.com/profile.php?id=100069764238812&mibextid=ZbWKwL" target="_blank"> <FaFacebook /> </a></article>
-                        <article className="WA_icon"><a href="https://api.whatsapp.com/send/?phone=2348161512011&text&type=phone_number&app_absent=0" target="_blank"> <FaWhatsapp /> </a></article>
-                        <article className="inst_icon"><a href="https://instagram.com/justhairandaccessoriessalon?igshid=ZGUzMzM3NWJiOQ==" target="_blank"> <FaInstagram /> </a></article>
+                        <article className="fb_icon"><a href="https://www.facebook.com/profile.php?id=100069764238812&mibextid=ZbWKwL" target="_blank" rel = 'noreferrer'> <FaFacebook /> </a></article>
+                        <article className="WA_icon"><a href="https://api.whatsapp.com/send/?phone=2348161512011&text&type=phone_number&app_absent=0" target="_blank" rel = 'noreferrer'> <FaWhatsapp /> </a></article>
+                        <article className="inst_icon"><a href="https://instagram.com/justhairandaccessoriessalon?igshid=ZGUzMzM3NWJiOQ==" target="_blank" rel = 'noreferrer'> <FaInstagram /> </a></article>
                     </div>
                 </div>
             </section>

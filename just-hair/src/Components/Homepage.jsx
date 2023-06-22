@@ -1,5 +1,5 @@
 import React from 'react'
-import {Link, useNavigate} from 'react-router-dom'
+import { useNavigate} from 'react-router-dom'
 import '../styles/homepage.css'
 import PercentA from '../assets/PercentA.jpg'
 import PercentB from '../assets/PercentB.jpg'

@@ -1,14 +1,12 @@
-import React, { Component } from 'react'
-import {Link} from 'react-router-dom'
+import React from 'react'
 
-class Review extends Component {
-  render() {
-    return (
-      <div>
-        <div>Review me</div>
-      </div>
-    )
-  }
+const Review = () => {
+  return (
+    <div>
+      <div>Review me</div>
+    </div>
+  )
 }
+
 
 export default Review

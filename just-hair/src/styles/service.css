@@ -11,21 +11,6 @@
     padding: 0rem 5rem;
     font-size: 20px;
 }
-.man_d_1{
-    display:flex;
-    justify-content: space-evenly;
-    margin: 70px 0px 0px 0px;
-    padding: 0px 200px;
-}
-.man_i_1 img{
-    border: rgb(206, 128, 10) solid 3px;
-}
-.man_i_2 img{
-    border: rgb(206, 128, 10) solid 3px;
-}
-.man_i_3 img{
-    border: rgb(206, 128, 10) solid 3px;
-}
 .man_d_2{
     display:flex;
     justify-content: space-evenly;
