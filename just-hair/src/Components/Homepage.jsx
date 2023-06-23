@@ -7,7 +7,6 @@ import PercentC from '../assets/PercentC.jpg'
 import PercentD from '../assets/PercentD.jpg'
 import PercentOff from '../assets/Percentoff.jpg'
 import PixieCut from '../assets/PixieCut.jpg'
-import HeroSection from '../assets/HeroSection.jpg'
 import HolidayInspiredLooks from '../assets/HolidayInspiredLooks.jpg'
 import BobCut from '../assets/BobCut.jpg'
 
@@ -36,7 +35,7 @@ const Homepage = () => {
           <span>Up to 20% discount</span><br/>
           <button onClick = {productPage}>Check Now</button>
         </div>
-        <img src={HeroSection} alt=""  />
+        <div className='heroImg'></div>
       </div>
       {/* buttons to products */}
       <div className="btn_3">

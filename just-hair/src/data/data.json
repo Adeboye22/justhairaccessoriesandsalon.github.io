@@ -32,5 +32,27 @@
             "title": "Hair Weaving",
             "description": ""
         }
+    ],
+    "products": [
+        {
+            "product": "",
+            "description": "",
+            "price": ""
+        },
+        {
+            "product": "",
+            "description": "",
+            "price": ""
+        },
+        {
+            "product": "",
+            "description": "",
+            "price": ""
+        },
+        {
+            "product": "",
+            "description": "",
+            "price": ""
+        }
     ]
 }

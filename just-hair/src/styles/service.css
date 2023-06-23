@@ -138,6 +138,12 @@
         margin: 70px 0px 0px 0px;
         padding: 0px 200px;
     }
+    .man p{
+        color: white;
+        text-align: justify;
+        padding: 0rem 5rem;
+        font-size: 20px;
+    }
     .man_i_1 img{
         border: rgb(206, 128, 10) solid 3px;
         width: 100px;
