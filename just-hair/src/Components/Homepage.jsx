@@ -73,10 +73,7 @@ const Homepage = () => {
         <div className="Abt_us">
           <h3>About us</h3>
           <p>
-            &nbsp; Just Hair and Accessories Salon is your ultimate beauty store where you can shop in Warri, Delta state. Our amazing selection of high quality, yet affordable wigs; besides the
-            hundreds of wig styles, we also carry a variety of different hair pieces from lace front wigs to ponytails. No matter your style, let Just Hair and Accessories Salon introduce
-            you to the best hair extensions and wigs online and onsite.
-            &nbsp; Our selection is curated with everything you need to buy wigs online. Improve your Look with Just Hair and Accessories. It's all up to you with breadth-taking, sexy, and stunning styles.
+            &nbsp; Just Hair and Accessories Salon is your one-stop salon located in Warri, Delta state. Our amazing selection of high quality wigs and hair products makes us the perfect choice for those in need of top-notch hair services. We offer all feminine hair services with any hair type or style, from edgy to classic, and straight to curly, short or long. We also have a variety of different hair pieces from lace front wigs to ponytails. Our salon is properly equipped with modern infrastructures to give you an unforgettable experience. Our expert stylists will nourish your hair, ensuring the quality of your cut will last your busy lifestyle. The goal is to deliver to you top notch services, elevate your look, and have you depart our salon with a premium style.
           </p>
         </div>
       </div>

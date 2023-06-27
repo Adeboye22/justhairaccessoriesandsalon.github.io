@@ -73,7 +73,7 @@ section.second_section .col_5{
     .col_4a{
         display: flex;
         flex-direction: row;
-        margin-right: 150px;
+        margin-right: 120px;
     }
     .fb_icon a{
         color: blue;

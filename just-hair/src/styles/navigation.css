@@ -156,11 +156,22 @@ nav button a{
         font-weight: 500;
         cursor: pointer;
     }
+    nav button.contactUs {
+        margin-right: 0px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        padding: 10px;
+        border-radius: 7px;
+        font-size: 14px;
+        cursor:pointer;
+        transition: all 0.5s ease-in-out;
+        background: #B917F2;
+    }
     .navLogInBtn{
         margin-right: 0px;
         margin-top: 15px;
         margin-bottom: 15px;
-        padding: 15px 30px;
+        padding: 10px;
         border: solid 2px #B917F2;
         border-radius: 7px;
         font-size: 16px;

@@ -41,15 +41,13 @@
 }
 .hero_a h3{
     text-shadow: 2px 2px rgba(0, 0, 0, 0.507);
-    margin-left:1em;
 }
 .hero_a span{
     font-weight: 600;
 }
 .hero_a button{
     margin-top: 2em;
-    margin-left: 1em;
-    padding:10px 45px ;
+    padding:10px 40px ;
     font-size: 16px;
     border-radius: 15px;
     border:1px solid;
@@ -64,47 +62,10 @@
     border:2px solid;
 }
 .heroImg{
-    background: url(../assets/jh_ads11.jpg);
-    background-size: auto;
+    background: gold;
     border-radius: 5px;
     border: 1px solid gold;
-    width: 40%;
-    animation: change 60s infinite ease-in-out;
-}
-@keyframes change{
-    0%{
-        background: url(../assets/jh_ads0.jpg);
-    }
-    10%{
-        background: url(../assets/jh_ads1.jpg)
-    }
-    20%{
-        background: url(../assets/jh_ads2.jpg)
-    }
-    30%{
-        background: url(../assets/jh_ads3.jpg)
-    }
-    40%{
-        background: url(../assets/jh_ads4.jpg)
-    }
-    50%{
-        background: url(../assets/jh_ads5.jpg)
-    }
-    60%{
-        background: url(../assets/jh_ads6.jpg);
-    }
-    70%{
-        background: url(../assets/jh_ads7.jpg)
-    }
-    80%{
-        background: url(../assets/jh_ads8.jpg);
-    }
-    90%{
-        background: url(../assets/jh_ads9.jpg);
-    }
-    100%{
-        background: url(../assets/jh_ads10.jpg);
-    }
+    width: 35%;
 }
 /* buttons to products */
 .btn_3{
@@ -365,7 +326,6 @@
     .heroImg{
         border-radius: 5px;
         width: 35%;
-        height: 25%;
         margin: 2em 0em 2em 4em;
     }
     /* buttons to products */
