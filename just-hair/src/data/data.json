@@ -1,58 +1,78 @@
 {
     "services": [
         {
+            "id": "1",
             "title": "Manicure",
             "description": "We have the best manicure services with professional beauticians to make your nails look pretty and neat. Click the button below to book this service."
         },
         {
+            "id": "2",
             "title": "Pedicure",
             "description": "We have one of the best pedicure services with professional beauticians to make your toe nails look pretty and neat. Click the button below to book this service."
         },
         {
+            "id": "3",
             "title": "Make-up and Gele",
             "description": "We offer professional make-up services including eye-lashes fixing, facials, spot removals, and gele. Click the button below to book this service."
         },
         {
+            "id": "4",
             "title": "Fixing of Hairs",
             "description": "We fix all types of hairs. Click the button below to book this service."
         },
         {
+            "id": "5",
             "title": "Wig Making",
             "description": "We sew and revamp wigs. Click the button below to book this service"
         },
         {
+            "id": "6",
             "title": "Creative Haircuts",
             "description": ""
         },
         {
+            "id": "7",
             "title": "Hair Treatments",
             "description": ""
         }, 
         {
+            "id": "8",
             "title": "Hair Weaving",
             "description": ""
         }
     ],
     "products": [
         {
-            "product": "",
-            "description": "",
-            "price": ""
+            "id": "1",
+            "product": "Bigen",
+            "description": "Bigen",
+            "category": "hair care products",
+            "price": "5000",
+            "image": "../assets/Bigen.jpg"
         },
         {
-            "product": "",
-            "description": "",
-            "price": ""
+            "id": "2",
+            "product": "Adore",
+            "description": "Adore",
+            "category": "hair care products",
+            "price": "7500",
+            "image": "../assets/Adore.jpg"
         },
         {
-            "product": "",
-            "description": "",
-            "price": ""
+            "id": "3",
+            "product": "Cantu Shea Butter",
+            "description": "Cantu shea butter",
+            "category": "hair care products",
+            "price": "9000",
+            "image": "../assets/CantuSheaButter.jpg"
         },
         {
-            "product": "",
-            "description": "",
-            "price": ""
+            "id": "4",
+            "product": "Kiss Express",
+            "description": "kiss express",
+            "category": "hair care products",
+            "price": "15000",
+            "image": "../assets/KissExpress.jpg"
         }
     ]
 }

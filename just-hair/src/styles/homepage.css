@@ -62,10 +62,55 @@
     border:2px solid;
 }
 .heroImg{
-    background: gold;
+    background: url('../assets/jh_ads0.jpg');
+    background-position: center;
+    background-size: cover;
     border-radius: 5px;
     border: 1px solid gold;
     width: 35%;
+    animation: slide 20s infinite;
+}
+@keyframes slide{
+    0%{
+        background: url('../assets/jh_ads0.jpg');
+        background-position: center;
+        background-size: cover;
+    }
+    15%{
+        background: url('../assets/jh_ads1.jpg');
+        background-position: center;
+        background-size: cover;
+    }
+    30%{
+        background: url('../assets/jh_ads2.jpg');
+        background-position: center;
+        background-size: cover;
+    }
+    45%{
+        background: url('../assets/jh_ads3.jpg');
+        background-position: center;
+        background-size: cover;
+    }
+    60%{
+        background: url('../assets/jh_ads4.jpg');
+        background-position: center;
+        background-size: cover;
+    }
+    75%{
+        background: url('../assets/jh_ads5.jpg');
+        background-position: center;
+        background-size: cover;
+    }
+    90%{
+        background: url('../assets/jh_ads6.jpg');
+        background-position: center;
+        background-size: cover;
+    }
+    100%{
+        background: url('../assets/jh_ads7.jpg');
+        background-position: center;
+        background-size: cover;
+    }
 }
 /* buttons to products */
 .btn_3{
@@ -328,6 +373,7 @@
         width: 35%;
         margin: 2em 0em 2em 4em;
     }
+
     /* buttons to products */
     .btn_3{
         display:flex;

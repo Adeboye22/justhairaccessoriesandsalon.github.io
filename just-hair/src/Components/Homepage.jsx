@@ -13,13 +13,15 @@ import BobCut from '../assets/BobCut.jpg'
 const Homepage = () => {
   let navigate = useNavigate();
   
-  const servicePage = () =>{
+  const servicePage = () => {
     navigate('/Service');
   }
 
-  const productPage =() =>{
+  const productPage =() => {
     navigate('/Product')
   }
+
+  
   return (
     <div>
       {/* top section */}
