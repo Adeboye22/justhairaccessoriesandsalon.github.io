@@ -1,9 +1,5 @@
 import React from 'react'
 import '../styles/product.css'
-// import Bigen from '../assets/Bigen.jpg'
-// import Adore from '../assets/Adore.jpg'
-// import CantuSheaButter from '../assets/CantuSheaButter.jpg'
-// import KissExpress from '../assets/KissExpress.jpg'
 
 const Product = ({products}) => {
 
