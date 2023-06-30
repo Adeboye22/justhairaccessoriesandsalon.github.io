@@ -9,7 +9,7 @@
     padding-right: 75px;
     padding-bottom:30px;
     font-size: 20px;
-    color: white;
+    color: black;
 }
 .col_a_2{
     margin-right: 50px;
@@ -17,12 +17,12 @@
     padding-right: 75px;
     padding-bottom:30px;
     font-size: 20px;
-    color:white; 
+    color:black; 
 }
 .col_a_3{
     padding-bottom:30px;
     font-size: 20px;
-    color:white;
+    color:black;
 }
 /* hero section */
 .hero{
@@ -124,7 +124,8 @@
     border:0px solid;
     font-size: 18px;
     font-weight: 600;
-    background-color: #e2b0f4;
+    background-color: #B917F2;
+    color: white;
     box-shadow: 2px 3px rgba(0, 0, 0, 0.358);
     cursor:pointer;
     transition: all 0.5s ease-in-out;
@@ -138,7 +139,8 @@
     border:0px solid;
     font-size: 18px;
     font-weight: 600;
-    background-color: #e2b0f4;
+    background-color: #B917F2;
+    color:white;
     box-shadow: 2px 3px rgba(0, 0, 0, 0.358);
     cursor:pointer;
     transition: all 0.5s ease-in-out;
@@ -152,7 +154,8 @@
     border:0px solid;
     font-size: 18px;
     font-weight: 600;
-    background-color: #e2b0f4;
+    background-color: #B917F2;
+    color:white;
     box-shadow: 2px 3px rgba(0, 0, 0, 0.358);
     cursor:pointer;
     transition: all 0.5s ease-in-out;
@@ -310,7 +313,7 @@
     color:white;
     transition:all 0.3s ;
 }
-.btn_VA button:is(:hover,:focus){
+.btn_VA button:is(:hover){
     outline-offset: 3px;
 }
 /* About us section */
@@ -388,7 +391,8 @@
         border:0px solid;
         font-size: 10px;
         font-weight: 600;
-        background-color: #e2b0f4;
+        background-color:#B917F2;
+        color:white;
         box-shadow: 2px 3px rgba(0, 0, 0, 0.358);
     }
     .btn_3_b{
@@ -397,7 +401,8 @@
         border:0px solid;
         font-size: 10px;
         font-weight: 600;
-        background-color: #e2b0f4;
+        background-color: #B917F2;
+        color:white;
         box-shadow: 2px 3px rgba(0, 0, 0, 0.358);
     }
     .btn_3_c{
@@ -406,7 +411,8 @@
         border:0px solid;
         font-size: 10px;
         font-weight: 600;
-        background-color: #e2b0f4;
+        background-color: #B917F2;
+        color: white;
         box-shadow: 2px 3px rgba(0, 0, 0, 0.358);
     }
     /* Product display */

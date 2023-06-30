@@ -8,51 +8,17 @@ import '../styles/product.css'
 const Product = ({products}) => {
 
   return (
-    <div>
-      {/* hair care section */}
-      <section className="sec_1">
-        <h1>Hair Care Products</h1>
-        {products.map((item) =>(
-          <div className="hairCare">
-            <div className="hairCare_col_A">
-              <div className="hairCare_1">
-                <img src={item.image} alt="" />
-                <article>
-                  <h4>{item.product}</h4>
-                  <span className='spn_1'><em>Description:</em> {item.description}</span>
-                </article>
-                <button className='prodBtn_1' type="submit">Buy now</button>
-              </div>
-              <div className="hairCare_2">
-                <img src={item.image} alt="" />
-                <article>
-                  <h4>{item.products.product}</h4>
-                  <span className='spn_2'><em>Description:</em> {item.description}</span>
-                </article>
-                <button className='prodBtn_2'>Buy now</button>
-              </div>
-            </div>
-            <div className="hairCare_col_B">
-              <div className="hairCare_3">
-                <img src={item.image} alt="" />
-                <article>
-                  <h4>{item.product}</h4>
-                  <span className='spn_3'><em>Description:</em> {item.description}</span>
-                </article>
-                <button className='prodBtn_3' type="submit">Buy now</button>
-              </div>
-              <div className="hairCare_4">
-                <img src={item.image} alt="" />
-                <article>
-                  <h4>{item.product}</h4>
-                  <span className='spn_4'><em>Description:</em> {item.description} </span>
-                </article>
-                <button className='prodBtn_4' type="submit">Buy now</button>
-              </div>
-            </div>
-          </div>
-        ))}
-      </section>
+    <div className="productComponent">
+      <h2 className="hairCare">Hair Products</h2>
+      {products.map((item, index) => (
+        <div className="products">
+            <img src={item.image} alt="" />
+            <p className="productName">{item.product}</p>
+            <p className="productDescription">{item.description}</p>
+            <p className="productCategory">{item.category}</p>
+            <p className="productPrice">N{item.price}</p>
+        </div>
+      ))}
     </div>
   )
 }

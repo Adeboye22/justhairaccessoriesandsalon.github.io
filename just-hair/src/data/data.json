@@ -3,17 +3,20 @@
         {
             "id": "1",
             "title": "Manicure",
-            "description": "We have the best manicure services with professional beauticians to make your nails look pretty and neat. Click the button below to book this service."
+            "description": "We have the best manicure services with professional beauticians to make your nails look pretty and neat. Click the button below to book this service.",
+            "image": "images/ArcrylicNails.jpg"
         },
         {
             "id": "2",
             "title": "Pedicure",
-            "description": "We have one of the best pedicure services with professional beauticians to make your toe nails look pretty and neat. Click the button below to book this service."
+            "description": "We have one of the best pedicure services with professional beauticians to make your toe nails look pretty and neat. Click the button below to book this service.",
+            "image": "images/BasicPedicure.jpg"
         },
         {
             "id": "3",
             "title": "Make-up and Gele",
-            "description": "We offer professional make-up services including eye-lashes fixing, facials, spot removals, and gele. Click the button below to book this service."
+            "description": "We offer professional make-up services including eye-lashes fixing, facials, spot removals, and gele. Click the button below to book this service.",
+            "image": "images/Gele2.jpg"
         },
         {
             "id": "4",
@@ -48,7 +51,7 @@
             "description": "Bigen",
             "category": "hair care products",
             "price": "5000",
-            "image": "../assets/Bigen.jpg"
+            "image": "images/Bigen.jpg"
         },
         {
             "id": "2",
@@ -56,7 +59,7 @@
             "description": "Adore",
             "category": "hair care products",
             "price": "7500",
-            "image": "../assets/Adore.jpg"
+            "image": "images/Adore.jpg"
         },
         {
             "id": "3",
@@ -64,7 +67,7 @@
             "description": "Cantu shea butter",
             "category": "hair care products",
             "price": "9000",
-            "image": "../assets/CantuSheaButter.jpg"
+            "image": "images/CantuSheaButter.jpg"
         },
         {
             "id": "4",
@@ -72,7 +75,7 @@
             "description": "kiss express",
             "category": "hair care products",
             "price": "15000",
-            "image": "../assets/KissExpress.jpg"
+            "image": "images/KissExpress.jpg"
         }
     ]
 }

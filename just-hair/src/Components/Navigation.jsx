@@ -37,7 +37,7 @@ function Navigation() {
             <li><NavLink style = {activeBtn} to="Review" className="reviews" >Reviews</NavLink></li>
           </ul>
           <button className= "contactUs" > <a href="https://api.whatsapp.com/send/?phone=2348161512011&text&type=phone_number&app_absent=0" target='_blank' rel = 'noreferrer'>Contact Us</a></button>
-          <button className="navLogInBtn" onClick={routeChange}>Login</button>
+          {/* <button className="navLogInBtn" onClick={routeChange}>Login</button> */}
           <button className="navCloseBtn" onClick={showNavBar}><FaTimes /></button>
         </nav>
         <button className="navBtn" onClick={showNavBar}><FaBars /></button>

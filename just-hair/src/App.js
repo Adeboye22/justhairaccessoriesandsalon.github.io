@@ -12,15 +12,16 @@ import Checkout from './Components/Checkout';
 function App() {
   const {products}  = Data;
   const {services} = Data;
+
   return (
     <>
     <div className="App">
       <Navigation />
       <Routes>
       <Route path="/" element={<Homepage />} />
-      <Route path="/Product" element={<Product products={products}/>} />
+      <Route path="/Product" element={<Product products={products} />} />
       <Route path="/Review" element={<Review />} />
-      <Route path="/Service" element={<Service />} />
+      <Route path="/Service" element={<Service services={services} />} />
       <Route path="/Checkout" element={<Checkout />} />
       </Routes>
       <Base />
