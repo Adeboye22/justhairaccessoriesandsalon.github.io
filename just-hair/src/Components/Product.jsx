@@ -8,7 +8,7 @@ const Product = ({products}) => {
       <h2 className="hairCare">Hair Products</h2>
       {products.map((item, index) => (
         <div className="products">
-            <img src={item.image} alt="" />
+            <img src={item.image} alt="" className="productImg" />
             <p className="productName">{item.product}</p>
             <p className="productDescription">{item.description}</p>
             <p className="productCategory">{item.category}</p>
