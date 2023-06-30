@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;700&family=Jost:wght@200;300;400;500;700;800&display=swap');
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -36,11 +38,13 @@ body{
   background: linear-gradient(180deg, #b817f27b , white 70%);
   background-repeat: no-repeat;
   margin:0px;
+  font-family: jost;
 }
 @media only screen and (max-width: 600px){
   body{
     background: linear-gradient(180deg, #b817f27b , white 70%);
     background-repeat: no-repeat;
-    margin: 0px
+    margin: 0px;
+    font-family: jost;
   }
 }

@@ -1,6 +1,7 @@
 /* styling for services */
+
 .serviceComponent{
-    padding: 10px;
+    padding: 20px;
 }
 .ourServices{
     color: black;
@@ -8,10 +9,14 @@
     font-size: 2em;
 }
 .servicesPage{
-    padding:10px;
+    padding:25px;
+    background-color: whitesmoke;
+    border-radius: 2px;
 }
 .servicesDetails{
     font-size: 22px;
+    font-style: oblique;
+    font-weight: lighter;
 }
 .servicesImages{
     display: flex;
@@ -44,6 +49,7 @@
 .servicesImg{
     width: 20em;
     height: 10em;
+    border-radius: 10px;
 }
 
 
