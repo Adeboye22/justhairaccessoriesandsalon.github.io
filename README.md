@@ -16,10 +16,10 @@ This is a web application for a hair salon brand (Just Hair and Accessories Salo
 - Owners Copyright.
 
 ## Features
-Just Hair is a full-stack web application comprising an API and a client-side the user interacts with. Users can browse through a catalogue of foods and add them to their cart, make orders and pay from the application.
+Just Hair is a full-stack web application comprising an aesthetic interface the user interacts with. Users can browse through a catalogue of hair products, make orders and pay, book for professional services from the application.
 
 ## Requirements
-The application is web-based and requires network data, and a sign-up/login action. 
+The application is web-based and requires network data. It does not require a signup or login before a product can be bought.
 
 ## Live Link
 Web application is still in progress!!!
@@ -56,6 +56,7 @@ Web application is still in progress!!!
 ## Professionals Involved
 - Oluwadamilola Adeboye Oyeniya OyeniyaOluwadamilola@outlook.com (Frontend Engineer/Project Supervisor)
 - Olorunsola Miracle OlorunsolaMiracle@gmail.com (Product Designer)
+- Adedayo Adepoju (Backend Engineer)
 
 ## Owners Copyright
 N/A
