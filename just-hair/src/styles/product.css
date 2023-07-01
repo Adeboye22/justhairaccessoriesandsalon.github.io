@@ -1,36 +1,35 @@
 /* styling for products page */
 
-:root{
-    --brdColor: rgb(206, 128, 10);
-    --btnColor: #B917F2;
-}
 .productComponent{
     padding: 0px 20px;
 }
 .product{
+    margin: 20px auto;
     display: flex;
+    flex-wrap:wrap;
     width: 100%;
-    justify-content: space-around;
+    justify-content:space-between;
     padding: 50px 0px;
     background-color: whitesmoke;
     border-radius: 5px;
 }
 .productsFrame{
-    border-color: goldenrod;
     border-radius: 5px;
     background-color: #B917F2;
     width: 15em;
     padding: 30px 15px;
     color: white;
+    margin: 30px 10px;
 }
 .productName{
     color: gold;
     font-weight: 700;
 }
 .productImg{
-    margin-left: 0px;
-    width: 15em;
-    height: 12em;
+    width: 100%;
+    max-width: 300px;
+    height: 200px;
+    display:block;
     border-radius: 2px;
 }
 .line-break{

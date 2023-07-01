@@ -76,6 +76,14 @@
             "category": "hair care products",
             "price": "15000",
             "image": "images/KissExpress.jpg"
+        },
+        {
+            "id": "5",
+            "product": "Kiss Express",
+            "description": "kiss express",
+            "category": "hair care products",
+            "price": "15000",
+            "image": "images/KissExpress.jpg"
         }
     ]
 }
