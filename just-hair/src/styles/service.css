@@ -3,6 +3,11 @@
 .serviceComponent{
     padding: 20px;
 }
+.service{
+    padding: 10px;    
+    background-color: whitesmoke;
+    border-radius: 15px;
+}
 .ourServices{
     color: black;
     margin-bottom: 1em;
@@ -10,8 +15,6 @@
 }
 .servicesPage{
     padding:25px;
-    background-color: whitesmoke;
-    border-radius: 2px;
 }
 .servicesDetails{
     font-size: 22px;

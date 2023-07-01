@@ -2,20 +2,20 @@ import React, { useRef,  } from 'react';
 import { FaBars, FaTimes } from "react-icons/fa";
 import JustHairLogo from '../assets/JustHairLogo.png';
 import '../styles/navigation.css';
-import { NavLink, useNavigate} from 'react-router-dom';
+import { NavLink} from 'react-router-dom';
 
 //this component the header file that links to all the pages of the app 
 function Navigation() {
   const navRef = useRef();
-  let navigate = useNavigate();
+  // let navigate = useNavigate();
 
   const showNavBar = () =>{
     navRef.current.classList.toggle("responsiveNav");
   }
 
-  const routeChange = () =>{
-    navigate('/');
-  }
+  // const routeChange = () =>{
+  //   navigate('/');
+  // }
 
   const activeBtn = ({isActive}) => {
     return {
