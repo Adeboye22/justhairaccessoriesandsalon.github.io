@@ -1,6 +1,7 @@
 import React from 'react'
 import { useNavigate} from 'react-router-dom'
 import '../styles/homepage.css'
+import '@splidejs/react-splide/css';
 import PercentA from '../assets/PercentA.jpg'
 import PercentB from '../assets/PercentB.jpg'
 import PercentC from '../assets/PercentC.jpg'
@@ -9,10 +10,16 @@ import PercentOff from '../assets/Percentoff.jpg'
 import PixieCut from '../assets/PixieCut.jpg'
 import HolidayInspiredLooks from '../assets/HolidayInspiredLooks.jpg'
 import BobCut from '../assets/BobCut.jpg'
+import Jh0 from'../assets/jh_ads0.jpg'
+import Jh1 from '../assets/jh_ads1.jpg'
+// import Jh2 from '../assets/jh_ads2.jpg'
+// import Jh3 from '../assets/jh_ads3.jpg'
+// import Jh4 from '../assets/jh_ads4.jpg'
+
+import { Splide, SplideSlide } from '@splidejs/react-splide';
 
 const Homepage = () => {
   let navigate = useNavigate();
-  
   const servicePage = () => {
     navigate('/Service');
   }
@@ -23,7 +30,7 @@ const Homepage = () => {
 
   
   return (
-    <div>
+    <div className='homePage'>
       {/* top section */}
       <div className="col_a">
         <div className="col_a_1">Free delivery on orders over N200,000</div>
@@ -37,7 +44,16 @@ const Homepage = () => {
           <span>Up to 20% discount</span><br/>
           <button onClick = {productPage}>Check Now</button>
         </div>
-        <div className='heroImg'></div>
+        <div className='heroImg'>
+          <Splide aria-label="My Favorite Images">
+            <SplideSlide>
+              <img src={Jh0} alt=""/>
+            </SplideSlide>
+            <SplideSlide>
+              <img src={Jh1}  alt=""/>
+            </SplideSlide>
+          </Splide>
+        </div>
       </div>
       {/* buttons to products */}
       <div className="btn_3">

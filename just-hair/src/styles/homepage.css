@@ -24,16 +24,19 @@
     font-size: 20px;
     color:black;
 }
+/* HomePage */
+.homePage {
+    padding: 3rem;
+}
+
 /* hero section */
 .hero{
     display:flex;
-    justify-content: center;
+    padding: 3rem;
     background-color: white;
-    width: 50em;
-    padding:50px;
-    margin-left: 150px;
     border-radius: 10px;
     margin-bottom:50px;
+    height: 13rem;
 }
 .hero_a{
     margin-right: 300px;
@@ -62,56 +65,21 @@
     border:2px solid;
 }
 .heroImg{
-    background: url('../assets/jh_ads0.jpg');
-    background-position: center;
-    background-size: cover;
     border-radius: 5px;
     border: 1px solid gold;
     width: 35%;
-    animation: slide 20s infinite;
 }
-@keyframes slide{
-    0%{
-        background: url('../assets/jh_ads0.jpg');
-        background-position: center;
-        background-size: cover;
-    }
-    15%{
-        background: url('../assets/jh_ads1.jpg');
-        background-position: center;
-        background-size: cover;
-    }
-    30%{
-        background: url('../assets/jh_ads2.jpg');
-        background-position: center;
-        background-size: cover;
-    }
-    45%{
-        background: url('../assets/jh_ads3.jpg');
-        background-position: center;
-        background-size: cover;
-    }
-    60%{
-        background: url('../assets/jh_ads4.jpg');
-        background-position: center;
-        background-size: cover;
-    }
-    75%{
-        background: url('../assets/jh_ads5.jpg');
-        background-position: center;
-        background-size: cover;
-    }
-    90%{
-        background: url('../assets/jh_ads6.jpg');
-        background-position: center;
-        background-size: cover;
-    }
-    100%{
-        background: url('../assets/jh_ads7.jpg');
-        background-position: center;
-        background-size: cover;
-    }
+.splide{
+    height: 100%;
 }
+.splide__track{
+    height: 100%; 
+}
+img{
+    object-fit: cover;
+
+}
+
 /* buttons to products */
 .btn_3{
     display:flex;
@@ -329,11 +297,13 @@
     line-height: 2em;
     font-size: 18px;
 }
+
+/* mobile view style*/
 @media only screen and (max-width: 600px){
     .col_a{
         display:none;
     }
-    /* hero section */
+    /* mobile view hero section */
     .hero{
         background-color: white;
         width:22em;
@@ -683,4 +653,8 @@
     .btn_VA button:is(:hover,:focus){
         outline-offset: 3px;
     }
+}
+
+img {
+    object-fit: cover;
 }
